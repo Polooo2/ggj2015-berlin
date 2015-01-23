@@ -18,8 +18,6 @@ define(['require'], function(require) {'use strict';
   // Set up achievements
   achievements(myGame.viewport, myGame.localization.achievements);
 
-  console.log(myGame);
-
   // Set generated scene files
   myGame.director.scenes = sceneList();
 
@@ -35,7 +33,6 @@ define(['require'], function(require) {'use strict';
 
   // If preloader is complete, everything in this function happens
   myGame.preloader.on('complete', function() {
-    // Show "scene1"
     myGame.showScene('character');
   });
 

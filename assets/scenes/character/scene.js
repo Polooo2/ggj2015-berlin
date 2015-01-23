@@ -1,8 +1,12 @@
 (function(scene) {
 
   var Lyria = scene.modules.Lyria;
-  
-  scene.on('active', function() {
+
+  scene.expose({
+    character: ['a', 'b', 'c']
+  });
+
+  /*scene.on('active', function() {
     console.log('active: ' + scene.name);
   });
 
@@ -34,6 +38,6 @@
 
   scene.expose({
     test: 'Hallo'
-  });
+  });*/
 
 })(this);

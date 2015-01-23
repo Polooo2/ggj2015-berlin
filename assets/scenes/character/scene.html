@@ -1,1 +1,3 @@
-<div>{{test}}</div>
+{{#each character}}
+    <div class="character character{{@index}}" data-behavior="select-character{{@index}}"></div>
+{{/each}}
