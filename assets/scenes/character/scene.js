@@ -1,13 +1,38 @@
 (function(scene) {
 
   var Lyria = scene.modules.Lyria;
+  var world = scene.parent.parent.world;
+
+  var characters = ['Armoise', 'Character 2', 'Character 3'];
 
   // TODO: Add actual character names here
   scene.expose({
-    character: ['Character 1', 'Character 2', 'Character 3']
+    character: characters
   });
 
-  
+  var selectedCharacter = '';
+
+  for (var i = 0, j = characters.length; i < j; i++) {
+    (function(i) {
+      scene.bindEvent('[data-behavior~=select-character' + i + ']', function(e) {
+        selectedCharacter = characters[i];
+        $('.continue', scene.$element).removeClass('disabled');
+        var $target = $(e.currentTarget);
+        $('.character', scene.$element).removeClass('active');
+        $target.addClass('active');
+
+        var $speechContainer = $('.speech-bubble-container', scene.$element);
+        $speechContainer.removeClass('hidden');
+        // This looks weird and it is
+        $speechContainer.css('left', $target.position().left + 'px');
+      });
+    })(i);
+  }
+
+  scene.bindEvent('[data-behavior~=continue]', function() {
+    world.character = selectedCharacter;
+    scene.parent.show('game');
+  });
 
   /*scene.on('active', function() {
     console.log('active: ' + scene.name);
