@@ -1,3 +1,11 @@
-<div>{{title}}</div>
-
-<span id="btnSwitch" class="clickable">{{translate "btnSwitchToNextScene"}}</span>
+<div style="float:left">npc:</div>
+<div style="float:right">character:</div>
+<div class="conversation-area" data-name="conversation" style="clear:both;">
+    <div class="text-character" data-name="text-character"></div>
+    <div class="text-npc" data-name="text-npc"></div>
+    <ul data-name="answers">
+        <li class="answer clickable" data-behavior="answer" data-type="1"></li>
+        <li class="answer clickable" data-behavior="answer" data-type="2"></li>
+        <li class="answer clickable" data-behavior="answer" data-type="3"></li>
+    </ul>
+</div>

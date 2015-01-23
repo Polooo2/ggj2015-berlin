@@ -1,33 +1,70 @@
 (function(scene) {
   
   var Lyria = scene.modules.Lyria;
-
+  var path = '';
+  var final = false;
+  var $conversationArea;
+  // TODO
+  var dialogData = scene.parent.parent.world.data.monster;
   scene.on('active', function() {
-    console.log('active: ' + scene.name);
+    if (!$conversationArea) {
+      $conversationArea = $('[data-name*="conversation"]', scene.$element)
+    }
+    // reset vars
+    path = '';
+    final = false;
+    $('[data-name*="text-character"]', $conversationArea).text(dialogData['-1']);
+    $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
+    setText();
   });
 
-  scene.on('achievement', function() {
-    Lyria.AchievementManager.show('switchScene');
-  });
-  
+  /**
+   * click listener for answers
+   */
   scene.bindEvents({
-    '#btnSwitch': {
+    '[data-behavior*="answer"]': {
       'click': function(event) {
-        scene.trigger('achievement');
-        scene.parent.show('scene2');
+        // get type
+        var type = $(this).attr('data-type');
+        path += type;
+        $('[data-name*="text-character"]', $conversationArea).text(dialogData[path]);
+        setText();
+        return false;
+      }
+    },
+    '[data-name*="conversation"]': {
+      'click': function(event) {
+        if (final) {
+          // in case we reached the last answer
+          scene.parent.show('game');
+        }
       }
     }
   });
 
-  scene.expose({
-    test: "Hallo",
-    title: scene.t('title', {
-      name: scene.name
-    })
-  });
+  /**
+   *
+   */
+  function setText() {
+    var text = dialogData[path + '0'];
+    console.log($conversationArea)
+    // check for las answer
+    if (!text) {
+      text = dialogData[path + 'f'] || dialogData[path + 's'];
+      scene.parent.parent.world.character.hearts += dialogData[path + 'f'] ? 1 : 0;
+      final = true;
+      $('[data-name*="answers"]', $conversationArea).addClass('hidden');
+    } else {
+      // fill answer choices
+      $('[data-behavior*="answer"][data-type*="1"]', $conversationArea).text(dialogData[path + '1']);
+      $('[data-behavior*="answer"][data-type*="2"]', $conversationArea).text(dialogData[path + '2']);
+      $('[data-behavior*="answer"][data-type*="3"]', $conversationArea).text(dialogData[path + '3']);
+    }
+    $('[data-name*="text-npc"]', $conversationArea).text(text);
+    console.log($('[data-name*="text"]', $conversationArea))
+  }
 
-  console.log(scene);
-  console.log(scene.game);
-  scene.log('yeeha!');
+  scene.expose();
+
 
 })(this);
