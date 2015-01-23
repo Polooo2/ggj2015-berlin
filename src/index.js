@@ -8,6 +8,7 @@ define(['require'], function(require) {'use strict';
   var prefabList = require('mygame/prefablist');
   var assetList = require('mygame/assetlist');
   var i18n = require('mygame/i18n');
+  var world = require('mygame/world');
   var PrefabManager = require('lyria/prefab/manager');
 
   // Create a new game object
@@ -17,6 +18,8 @@ define(['require'], function(require) {'use strict';
 
   // Set up achievements
   achievements(myGame.viewport, myGame.localization.achievements);
+
+  world(myGame);
 
   // Set generated scene files
   myGame.director.scenes = sceneList();

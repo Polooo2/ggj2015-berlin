@@ -1,3 +1,7 @@
+<div>Choose your character:</div>
+
 {{#each character}}
-    <div class="character character{{@index}}" data-behavior="select-character{{@index}}"></div>
+    <div class="character character{{@index}}" data-behavior="select-character{{@index}}">
+        <div>{{.}}</div>
+    </div>
 {{/each}}

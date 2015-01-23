@@ -2,9 +2,12 @@
 
   var Lyria = scene.modules.Lyria;
 
+  // TODO: Add actual character names here
   scene.expose({
-    character: ['a', 'b', 'c']
+    character: ['Character 1', 'Character 2', 'Character 3']
   });
+
+  
 
   /*scene.on('active', function() {
     console.log('active: ' + scene.name);
