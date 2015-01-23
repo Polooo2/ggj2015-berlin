@@ -3,19 +3,19 @@ module.exports =
     livereload: true
   stylus:
     files: 'stylus/**/*.styl',
-    tasks: ['newer:stylus:development']
+    tasks: ['stylus:development']
   assetList:
     files: 'assets/**/*',
-    tasks: ['newer:lyriaAssetList']
+    tasks: ['lyriaAssetList']
   scenes:
     files: 'assets/scenes/*',
-    tasks: ['newer:lyriaScene']
+    tasks: ['lyriaScene']
   i18nData:
     files: 'assets/i18n/**/*.json',
-    tasks: ['newer:lyriaData']
+    tasks: ['lyriaData']
   template:
     files: 'template.html',
-    tasks: ['newer:bower']
+    tasks: ['bower']
   concat:
     files: 'src/**/*.js',
-    tasks: ['newer:amd_tamer']
+    tasks: ['amd_tamer']
