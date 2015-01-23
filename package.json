@@ -8,6 +8,7 @@
     "grunt-bowercopy": "^1.2.0",
     "grunt-cli": "^0.1.13",
     "grunt-concat-sourcemap": "~0.4.0",
+    "grunt-concurrent": "^1.0.0",
     "grunt-consolidate": "^0.1.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compress": "^0.13.0",
