@@ -1,0 +1,10 @@
+{
+  "de": {
+    "switchScene": "Szene gewechselt",
+    "switchScene-description": "Sie haben die Szene gewechselt."
+  },
+  "en": {
+    "switchScene": "Switched scene",
+    "switchScene-description": "You switched the scene."
+  }
+}
