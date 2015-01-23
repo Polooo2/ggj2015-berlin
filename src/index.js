@@ -19,7 +19,7 @@ define(['require'], function(require) {'use strict';
   // Set up achievements
   achievements(myGame.viewport, myGame.localization.achievements);
 
-  world(myGame);
+  world(myGame.world);
 
   // Set generated scene files
   myGame.director.scenes = sceneList();
