@@ -28,9 +28,9 @@ define(['require'], function(require) {'use strict';
   
   // myGame allows to add scenes directly, which internally uses the scene director
   myGame
-    // Add "scene1"
     .addScene('character')
-    // Add "scene2"
+    .addScene('conversation')
+    .addScene('outro')
     .addScene('game');
 
   // If preloader is complete, everything in this function happens
