@@ -12,7 +12,8 @@
   "dependencies": {
     "lyria": "~0.2.11",
     "normalize-css": "~2.1.2",
-    "fastclick": "~0.6.9"
+    "fastclick": "1.0.x",
+    "iscroll": "5.1.x"
   },
   "devDependencies": {
     "mocha": "*",
