@@ -29,14 +29,14 @@ define(['require'], function(require) {'use strict';
   // myGame allows to add scenes directly, which internally uses the scene director
   myGame
     // Add "scene1"
-    .addScene('scene1')
+    .addScene('character')
     // Add "scene2"
-    .addScene('scene2');
+    .addScene('game');
 
   // If preloader is complete, everything in this function happens
   myGame.preloader.on('complete', function() {
     // Show "scene1"
-    myGame.showScene('scene1');
+    myGame.showScene('character');
   });
 
   // Set asset list for preloader
