@@ -19,6 +19,8 @@
   };
 
   scene.on('active', function(npcNumber) {
+    $('[data-name*="text-npc"]', scene.$elements).hide();
+
     var npcName;
     switch (npcNumber) {
       case 'npc0':
