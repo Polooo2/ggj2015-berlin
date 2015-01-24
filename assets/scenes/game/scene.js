@@ -1,5 +1,5 @@
 (function(scene) {
-  
+
   var Lyria = scene.modules.Lyria;
   var myScroll;
   var floor = 0;
@@ -8,7 +8,10 @@
     if (!myScroll) {
       var wrapper = document.getElementById('wrapper');
       myScroll = new IScroll(wrapper, {
-        'startY': -2304
+        'startY': -2304,
+        disableMouse: true,
+        disablePointer: true,
+        disableTouch: true
       });
       startCharacterMoving('hero1', 'right', false, function() {
         startCharacterMoving('npc0', 'left', true, function() {
@@ -26,8 +29,7 @@
     }
   });
 
-  scene.expose({
-  });
+  scene.expose({});
 
   function floorUp() {
     floor++;
