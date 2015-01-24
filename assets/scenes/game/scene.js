@@ -4,11 +4,13 @@
   var world = scene.parent.parent.world;
   var myScroll;
   var floor = 0;
+  var level = 0;
 
-  scene.on('active', function(moveUp) {
-    world.audio.stop('character-sel');
-    world.audio.play('elevator');
+  scene.on('active', function(afterConversation) {
     if (!myScroll) {
+      console.log('init myscroll')
+      world.audio.stop('character-sel');
+      world.audio.play('elevator');
       var wrapper = document.getElementById('wrapper');
       myScroll = new IScroll(wrapper, {
         'startY': -2304,
@@ -17,43 +19,60 @@
         disableTouch: true,
         snap: 'li'
       });
-      myScroll.goToPage(0, 3, 0);
+      myScroll.goToPage(0, 5, 0);
       startCharacterMoving('hero1', 'right', false, function() {
-        startCharacterMoving('npc0', 'left', true, function() {
+        startCharacterMoving('npc' + level, 'left', true, function() {
           // Add a few millis in between
           setTimeout(function() {
-            scene.parent.show('conversation');
+            scene.parent.show('conversation', 'npc' + level);
           }, 850);
         });
       });
     }
-
     // if returning from a conversation
-    if (moveUp) {
-      floorUp();
+    if (afterConversation) {
+      myScroll.refresh();
+      // move up one floor
+      floorUp(function() {
+        // move old npc out
+        startCharacterMoving('npc' + level, 'out', true, function() {
+          level++;
+          if (level === 2) {
+            // outro
+            scene.parent.show('outro');
+          } else {
+            // move new npc in
+            startCharacterMoving('npc' + level, 'left', true, function() {
+              // Add a few millis in between
+              setTimeout(function() {
+                scene.parent.show('conversation', 'npc' + level);
+              }, 850);
+            });
+          }
+        });
+      });
     }
   });
-
-  scene.expose({});
 
   function floorUp(callback) {
     var cbFn = function() {
       myScroll.off('scrollEnd', cbFn);
-      callback();
+      if (callback) {
+        callback();
+      }
+
+      if (myScroll.currentPage.pageY === 0) {
+        // jump four tiles down
+        myScroll.goToPage(0, 4, 0);
+      }
     };
     floor++;
-    if (myScroll.currentPage.pageY === 0) {
-      // jump four tiles down
-      myScroll.goToPage(0, 4, 0);
-      if (callback) {
-        myScroll.on('scrollEnd', cbFn);
-      }
-    } else {
-      if (callback) {
-        myScroll.on('scrollEnd', cbFn);
-      }
-    }
-    myScroll.prev();
+
+    myScroll.on('scrollEnd', cbFn);
+
+    setTimeout(function() {
+      myScroll.prev();
+    }, 350);
   }
 
   /**
@@ -71,21 +90,23 @@
       $character.addClass(side + '-side');
 
       // This should be rather onTransitionEnd, but I'm not sure about its iOS support
-      $character.on('transitionend', function() {
-        setTimeout(function() {
+      $character.off('transitionend').on('transitionend', function() {
+        if (side === 'out') {
+          if (callback) {
+            callback();
+          }
+        } else {
           floorUp(function() {
             if (inbetween) {
               if (callback) {
                 callback();
               }
             } else {
-              setTimeout(function() {
-                floorUp(callback);
-              }, 350);
+              floorUp(callback);
             }
 
           });
-        }, 550);
+        }
       });
     }, 200);
   }

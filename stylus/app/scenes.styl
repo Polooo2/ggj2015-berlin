@@ -135,8 +135,8 @@ $seperator = 650px;
   .character {
     position: absolute;
     bottom: 30px;
-    left: 30px;
-    transition: transform 2000ms;
+    left: -300px;
+    transition: transform 3000ms;
 
     &.hero1 {
       background-image: url(asset('armoise.png'));
@@ -151,13 +151,23 @@ $seperator = 650px;
       height: 337px;
       background-size: contain;
     }
+    &.npc1 {
+      background-image: url(asset('armoise.png'));
+      width: 287px;
+      height: 456px;
+      background-size: contain;
+    }
 
     &.right-side {
-      transform: translateX(650px)
+      transform: translateX(980px)
     }
 
     &.left-side {
-      transform: translateX(400px)
+      transform: translateX(730px)
+    }
+
+    &.out-side {
+      transform: translateX(-730px)
     }
   }
 }
