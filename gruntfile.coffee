@@ -42,14 +42,17 @@ module.exports = (grunt) ->
       var currentName = '';
       csvLines.forEach(function(line) {
           var cells = line.split(',"');
+          var text;
           // if no cells could be found, that means, that the string isnt escaped
           if (!cells[1]) {
-              cells = line.split(',')
-              cells[1] += '"';
+              cells = line.split(',');
+          } else {
+              cells = [cells[0]].concat(cells[1].split('",,'));
           }
           var code = cells[0];
           // remove ending double quotes
-          var text = cells[1].substr(-1 * cells[1].length, cells[1].length - 1);
+          var text = cells[1];
+          var emotion = cells[2];
           if (code[1] !== currentName) {
               if (currentName !== '') {
                   // write file with obj to file system
