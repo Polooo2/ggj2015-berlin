@@ -1,4 +1,4 @@
-<div>Choose your character:</div>
+<div class="background"></div>
 
 <div class="speech-bubble-container hidden">
     <div class="bubble speech bubble3">Ready to flirt</div>
@@ -8,8 +8,8 @@
 
 {{#each character}}
     <div class="character character{{@index}}" data-behavior="select-character{{@index}}">
-        <div>{{.}}</div>
+        <div class="name">{{.}}</div>
     </div>
 {{/each}}
 
-<div class="button continue disabled" data-behavior="continue">Continue</div>
+<div class="button continue disabled" data-behavior="continue"></div>
