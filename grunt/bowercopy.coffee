@@ -9,6 +9,7 @@ module.exports =
       'build/debug/js/handlebars.js': 'handlebars/handlebars.amd.js'
       'build/debug/js/jquery.js': 'jquery/jquery.js'
       'build/debug/js/jquery.typed.js': 'typed.js/js/typed.js'
+      'build/debug/js/gameboard.js': 'gameboard/dist/gameboard.js'
       'build/debug/js/lyria.js': 'lyria/dist/js/lyria.js'
       'build/debug/js/mixedice.js': 'mixedice/dist/mixedice.js'
       'build/debug/js/modernizr.js': 'modernizr/modernizr.js'
