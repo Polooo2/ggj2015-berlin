@@ -36,7 +36,7 @@
       'click': function(event) {
         if (final) {
           // in case we reached the last answer
-          scene.parent.show('game');
+          scene.parent.show('game', true);
         }
       }
     }
@@ -47,7 +47,6 @@
    */
   function setText() {
     var text = dialogData[path + '0'];
-    console.log($conversationArea)
     // check for las answer
     if (!text) {
       text = dialogData[path + 'F'] || dialogData[path + 'S'];
@@ -56,7 +55,6 @@
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     }
     $('[data-name*="text-npc"]', $conversationArea).text(text);
-    console.log($('[data-name*="text"]', $conversationArea))
   }
 
   scene.expose();
