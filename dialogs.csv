@@ -1,4 +1,5 @@
 AP-1,"Enchanté mademoiselle, je m'appelle <i>Armoise</i>.",,
+APB,Inquire;Propose;Compliment,,
 AP0,"Whatever, Phostnack here.",,
 AP1,"I can't help but wònder what your majèstìque bodì is made of, mon chéri.",,
 AP2,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì...",,
@@ -8,7 +9,7 @@ AP20,And I believe we should not. Here's a stalemate for you. ,,repulse
 AP30,"Some people are lucky, I just so happen to be one of them. ",,
 AP11,"Sacré bleu, is sòmething troublìng your days chéri? I could hear you out ma fille, you onlì need ask.",,
 AP12,"Oh, but I'm redì to do whatevèr you ask of me for that <i>answer</i>, you see.",,
-AP13,"You're very mystèrious... <i>Armoius</i>, he likes mystèrious.",,
+AP13,"You're very mystèrious... <i>Armoise</i>, he likes mystèrious.",,
 AP11F,"Well, if I pay close attention to it there is one small thing that's troubling me: it's you.",,repulse
 AP12S,"I do. How about some floobing then? I can giggle and you'd dribble my bells, than we'll wobble and bobble and...",,aroused
 AP13F,"But Phostnack does't like Armoise, goodbye.",,repulse
@@ -25,16 +26,17 @@ AP31S,"It's made of sugar, Armoise, do you want some?",,aroused
 AP32S,And dancing it shall be.,,aroused
 AP33F,"That's very nice of you to say. Well, gotta go now.",,
 ,,,
+ADB,Inquire;Propouse;Compliment,,
 AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>",,
 AD0,"H-Hello, I'm Demolitos... but my friends call me Demmy!",,
-AD1,Why are you carrìng those mancìng and eavì <i>axes</i> in an élevateur mon chéri? ,,
+AD1,Why are you carrìng those menacìng and 'eavy <i>axes</i> in an élevateur mon chéri? ,,
 AD2,"Demmì, what a cute name. Can I touch your <i>axes</i> mon chéri?",,
-AD3,"Those are verì wide shoulders mon chérì. <i>Armoise</i>, he likes wide shoulders.",,
+AD3,"Those are verì... <i>wide</i> shoulders mon chérì. <i>Armoise</i>, he likes <i>wide</i> shoulders.",,
 AD10,I... I'm a Warrior.,,confident
 AD20,NO! I-I'm sorry... they are a present from my e-eighth birthday... Grandma made them!,,confident
 AD3S,I... eheh... thank you!,,blush
 AD11,"Oh, I wònder what terrible <i>catastrophe</i> may have pushed you to becòme one.",,
-AD12,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD12,"Oh, then we should <i>tussle</i> right now! Come here mon strong warrior!",,
 AD13,"You look verì strong indeed! <i>Armoise</i>, he likes strong.",,
 AD110,C-catastrophe? No! I just want to be the stro-strongest warrior!,,blush
 AD12S,Ah! Oh! Wuatà!,,confident
@@ -52,47 +54,89 @@ AD111F,I... well... it's this floor. *Demolitos get's off*,,
 AD112S,Ah! Oh! Wuatà!,,blush
 AS113S,Oh... uh... I... eheh.,,blush
 ,,,
+DPB,Bark;Woof;Anf,,
 DP-1,Bark Bark,,
 DP0,"Bark, sure.",,
-DP1,Bark  ,,
-DP2,Woof,,
-DP3,Arf,,
+DP1,Bark!,,
+DP2,Woof!,,
+DP3,Anf anf,,
 DP1F,"Whatever, goodbye.",,
-DP2S,"Damn it, you're so cute!",,aroused
+DP20,"You want to put what, where?!",,repulse
 DP3S,"Ooh, that's a-d-o-r-a-b-l-e!",,aroused
+DP21,Bark!,,
+DP22,Woof!,,
+DP23,Anf anf,,
+DP21S,Between elbow and... that's outrageous! I'm in!,,aroused
+DP22F,Inside the ear? At the same TIME?!,,repulse
+DP23S,"Let's do that, now!",,aroused
 ,,,
+DDB,Bark;Woof;Anf,,
 DD-1,Bark Bark,,
-DD0,"Ooh, what a nice doggy!",,excited
-DD1,Bark  ,,
-DD2,Woof,,
-DD3,Arf,,
-DD1S,"Come here doggy! Aaaww doggy doggy naaawww! Ahahahah, here's take some *num num num-num-num*",,excited
-DD2S,Uhuh cutie doggy come here you gucci gucci guuuuuuu ,,excited
-DD3S,"Ahahahah, here doggy here! *scrubble scrubble* you love it doggy don't you? gucci gucci guuuuu doggy! Eheheh!",,excited
+DD0,Ah! It is nice to meet you Mr. President!,,blush
+DD1,Bark!,,
+DD2,Woof!,,
+DD3,Anf anf,,
+DD1S,"P-protect me Grandma! I-I will do it, but only because it's you that ask.",,blush
+DD20,W-what are you talking about!?! Protect me Grandma!,,blush
+DD30,You met Grandma?!,,excited
+DD21,Bark!,,
+DD22,Woof!,,
+DD23,Anf anf,,
+DD21F,I... that is too much Mr. President.,,blush
+DD22F,I-in front of... ?! *Demolitos passes out*,,blush
+DD23S,"I... will submit to your will, Your Majesty.",,blush
+DD31,Bark!,,
+DD32,Woof!,,
+DD33,Anf anf,,
+DD31S,"If Grandma said so, I will.",,excited
+DD32S,Prisneyland?! Just let me pack my things!,,excited
+DD33S,Ice-cream?! Yes! I'll be there! Tomorrow 3:00 AM at the park! ,,excited
 ,,,
+ATB,Inquire;Propouse;Compliment,,
 AT-1,"Sacré bleu, a walking <i>Table</i>!",,
 AT0,... ,,
 AT1,How... did this <i>Table</i> walk here? ,,
 AT2,"Mmmh, I wònder if I should engage in some ploisur with Table here...",,
-AT3,"What a finelì crafted <i>Table</i>. Armois, he likes finelì crafted.",,
+AT3,"What a finelì crafted <i>Table</i>. Armoise, he likes finelì crafted.",,
 AT1F,...,,
 AT2S,...,,
 AT3S,...,,
 ,,,
+DTB,Bark;Woof;Anf,,
 DT-1,Bark Bark!,,
 DT0,...,,
 DT1,Bark!,,
-DT2,Woof!,,
-DT3,Arf!,,
-DT1S,"crick, crick, crick, crick, crick...",,
-DT2S,"crick, crick, crick, crick, crick...",,
-DT3S,"crick, crick, crick, crick, crick...",,
+DT2,Woof! Woof!,,
+DT3,Anf anf anf anf anf anf,,
+DT1S,"creeck, creeck, creeck, creeck, creeck...",,
+DT2S,"creeck, creeck, creeck, creeck, creeck...",,
+DT3S,"creeck, creeck, creeck, creeck, creeck...",,
 ,,,
+MDB,Play;Suggest;Approve,,
 MD-1,Don't know. How 'bout making out?,,
 MD0,Uh! ... what? I... My name is Demolitos.,,blush
 MD1,"And I'm Meryl sweetheart, how'd you like some tickling? *giggle*",,
-MD2,And I'm Meryl sweetheart. More open to making out now that we know each other?,,
-MD3,"Sure, Demolitos. My name is Meryl. ",,
-MD10,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
-MD20,I... what?! ,,
-MD30,,,
+MD2,"And I'm Meryl sweetheart. Good, now we know each other, time to make out?",,
+MD3,"And I'm Meryl sweetheart. So, you got some preatty nice shoulders going for you there. ",,
+MD1S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
+MD20,I... would... I mean... what?!,,blush
+MD30,Ah! oh... thank you!,,blush
+MD21,You would? Than what are we waiting for! *assault*,,
+MD22,"Make out, as to nack. Skrew. Play. Shak. <i>Vang</i>, you understand, don't you? Smeep with.",,
+MD23,"So, you're the shy one. I can appreciate it. *smirk*",,
+MD21S,Ah... what are you... Oh! Not there... ohohohoh...,,blush
+MD22F,S-smeep... with?!?! Protect me Grandma! *Demolitos passes out*,,blush
+MD23S,Eheh... ,,blush
+MD31,"Let's play arm wrestiling, if I win we make out!",,
+MD32,I bet you'll never be able to lift me!,,
+MD33,"And nice biceps, and look at those legs!",,
+MD31S,I never lost at arm wrestling!,,confident
+MD320,I can lift everything!,,confident
+MD33S,I...,,blush
+MD320B,Gotcha;Gotcha;Gotcha,,
+MD321,Gotcha! *Smack*,,
+MD322,Gotcha! *Smack*,,
+MD323,Gotcha! *Smack*,,
+MD321S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
+MD322S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
+MD323S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident

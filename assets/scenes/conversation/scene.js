@@ -8,6 +8,12 @@
   var dialogData;
   var world = scene.parent.parent.world;
 
+  var btnTexts = {
+    btn0: 'Inquire',
+    btn1: 'Propose',
+    btn2: 'Compliment'
+  };
+
   var resetCharText = function() {
     $('[data-name*="text-character"] > .text', scene.$elements).remove();
     $('[data-name*="text-character"]', scene.$elements).append('<div class="text"></div>');
@@ -21,6 +27,11 @@
   scene.on('active', function(npcNumber) {
     $('[data-name*="text-npc"]', scene.$elements).hide();
 
+    btnTexts = {
+      btn0: 'Inquire',
+      btn1: 'Propose',
+      btn2: 'Compliment'
+    };
     var npcName;
     switch (npcNumber) {
       case 'npc0':
@@ -35,6 +46,16 @@
         dialogData = world.data.P[world.character.name];
         npcName = 'Phostnack';
         break;
+    }
+
+    if (dialogData.B) {
+      var buttons = dialogData.B.split(';');
+      btnTexts = {
+        btn0: buttons[0],
+        btn1: buttons[1],
+        btn2: buttons[2]
+      };
+      setButtons(dialogData.B);
     }
 
     // set character data
@@ -124,11 +145,22 @@
 
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
+    } else {
+      if (dialogData[path + '0B']) {
+        setButtons(dialogData[path + '0B']);
+      } else {
+        setButtons('');
+      }
     }
     $('[data-name*="text-npc"] > .text', $conversationArea).typed({strings: [text || '  ']});
   }
 
-  scene.expose();
+  function setButtons(btns) {
+    btns = btns.split(';');
+    $('[data-behavior*="answer"][data-type="1"]', scene.$element).text(btns[0] || btnTexts.btn0);
+    $('[data-behavior*="answer"][data-type="2"]', scene.$element).text(btns[1] || btnTexts.btn1);
+    $('[data-behavior*="answer"][data-type="3"]', scene.$element).text(btns[2] || btnTexts.btn2);
+  }
 
 
 })(this);
