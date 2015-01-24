@@ -3,7 +3,7 @@
   var director = scene.parent.parent.director;
   scene.bindEvent('[data-behavior~=back]', function() {
     director.add('game');
-    world.audio.pause('winning')
+    world.audio.stop('winning')
     scene.parent.show('intro');
   });
   scene.on('active', function() {

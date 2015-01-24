@@ -53,7 +53,7 @@
     resetCharText();
 
     $('[data-name*="text-character"] > .text', $conversationArea).typed({
-      strings: [dialogData['-1']],
+      strings: [dialogData['-1'] || '  '],
       callback: function() {
         $('[data-name~=text-npc]').fadeIn(250, function() {
           $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
@@ -78,9 +78,8 @@
           // get type
           var type = $(self).attr('data-type');
           path += type;
-          $().typed('reset');
           $('[data-name*="text-character"] > .text', $conversationArea).typed({
-            strings: [dialogData[path]],
+            strings: [dialogData[path] || '  '],
             callback: function() {
               $('[data-name~=text-npc]').fadeIn(250, function() {
                 setText();
@@ -124,7 +123,7 @@
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     }
-    $('[data-name*="text-npc"] > .text', $conversationArea).typed({strings: [text]});
+    $('[data-name*="text-npc"] > .text', $conversationArea).typed({strings: [text || '  ']});
   }
 
   scene.expose();
