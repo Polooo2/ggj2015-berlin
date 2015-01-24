@@ -1,0 +1,1028 @@
+
+/* line 109 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .background {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 6 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .background[data-active=none] {
+  background-image: url("../assets/images/character/background.png");
+}
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .background[data-active=char1] {
+  background-image: url("../assets/images/character/background-active-char2.png");
+}
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .selection {
+  background: url("../assets/images/character/select.png");
+  width: 483px;
+  height: 157px;
+  position: absolute;
+  top: 8px;
+  left: 270.5px;
+}
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .speech-bubble-container {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 40px;
+  font-size: 1.3rem;
+}
+
+/* line 27 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .speech-bubble-container .bubble {
+  position: absolute;
+  -webkit-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 35 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .speech-bubble-container .bubble1 {
+  left: 50px;
+  bottom: 35px;
+  width: 45px;
+  height: 45px;
+}
+
+/* line 41 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .speech-bubble-container .bubble2 {
+  left: 20px;
+  bottom: 85px;
+}
+
+/* line 45 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .speech-bubble-container .bubble3 {
+  left: 20px;
+  top: 20px;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* line 53 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  top: 300px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 61 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character .name {
+  text-shadow: 0px 0px 4px #fff;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+  top: -40px;
+}
+
+/* line 68 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character0,
+#character .character.character2,
+#character .character.character3 {
+  pointer-events: none;
+}
+
+/* line 71 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character0 {
+  width: 235px;
+  height: 445px;
+  left: 50px;
+  top: 200px;
+  background-image: url("../assets/images/char1.png");
+}
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character1 {
+  left: 400px;
+  background-image: url("../assets/images/armoise.png");
+}
+
+/* line 82 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character2 {
+  top: 225px;
+  left: 650px;
+  background-image: url("../assets/images/char3.png");
+}
+
+/* line 87 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character3 {
+  left: 800px;
+  width: 110px;
+  height: 112px;
+  top: 500px;
+  background-image: url("../assets/images/char4.png");
+}
+
+/* line 94 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .continue {
+  position: absolute;
+  cursor: pointer;
+  width: 226px;
+  height: 81px;
+  text-align: center;
+  bottom: 20px;
+  left: 399px;
+  background-image: url("../assets/images/character/start.png");
+}
+
+/* line 104 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .continue:hover {
+  background-image: url("../assets/images/character/start_hover.png");
+}
+
+/* line 107 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .continue.disabled {
+  pointer-events: none;
+  background-image: url("../assets/images/character/start_inactive.png");
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\gameobject.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\gameobject.styl */
+.gameobject {
+  position: absolute;
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\main.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\main.styl */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1.5rem;
+}
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\main.styl */
+.clickable {
+  cursor: pointer;
+}
+
+/* line 15 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\main.styl */
+.hidden {
+  display: none;
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\prefabs.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 163 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 163 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 163 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+.scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 6 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#outro .background {
+  background-image: url("../assets/images/outro/background.png");
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .background {
+  background-image: url("../assets/images/conversation/background.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .portrait {
+  width: 500px;
+  height: 500px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-repeat: no-repeat;
+}
+
+/* line 29 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .portrait[data-name=npc0] {
+  background-image: url("../assets/images/phostnack.png");
+}
+
+/* line 34 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 39 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .text {
+  margin-top: 50px;
+}
+
+/* line 42 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .text-npc,
+#conversation .conversation-area .text-character {
+  padding: 20px;
+  background-color: #f3c7c7;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 10px solid #740342;
+  padding: 40px;
+  position: absolute;
+  width: 600px;
+  height: 160px;
+  -webkit-box-shadow: 2px 2px 6px #444;
+  box-shadow: 2px 2px 6px #444;
+}
+
+/* line 54 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .text-npc {
+  float: left;
+  clear: right;
+  text-align: left;
+  right: 40px;
+  top: 50px;
+  width: 490px;
+}
+
+/* line 62 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .text-character {
+  text-align: right;
+  bottom: 10px;
+  width: 80%;
+  left: 5%;
+}
+
+/* line 69 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .answers {
+  position: absolute;
+  right: 40px;
+  bottom: 350px;
+}
+
+/* line 75 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#conversation .conversation-area .answer {
+  background-color: #740342;
+  color: #f3c7c7;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 5px;
+}
+
+/* line 88 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+
+/* line 89 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors {
+  float: left;
+  width: 374px;
+}
+
+/* line 92 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #wrapper {
+  height: 768px;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 99 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller {
+  z-index: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 107 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 113 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller li {
+  height: 768px;
+}
+
+/* line 116 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller li.inbetween {
+  background-image: url("../assets/images/game/inbetween.png");
+}
+
+/* line 120 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller li.floor1 {
+  background-image: url("../assets/images/game/floor1.png");
+}
+
+/* line 124 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .floors #scroller li.floor2 {
+  background-image: url("../assets/images/game/floor2.png");
+}
+
+/* line 129 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .elevator {
+  float: left;
+  width: 650px;
+  height: 100%;
+  background-image: url("../assets/images/game/elevator.png");
+}
+
+/* line 135 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .character {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  -webkit-transition: -webkit-transform 2000ms;
+  -moz-transition: -moz-transform 2000ms;
+  -o-transition: -o-transform 2000ms;
+  -ms-transition: -ms-transform 2000ms;
+  transition: transform 2000ms;
+}
+
+/* line 141 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .character.hero1 {
+  background-image: url("../assets/images/armoise.png");
+  width: 287px;
+  height: 456px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+/* line 148 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .character.npc0 {
+  background-image: url("../assets/images/phostnack.png");
+  width: 280px;
+  height: 337px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+/* line 155 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .character.right-side {
+  -webkit-transform: translateX(650px);
+  -moz-transform: translateX(650px);
+  -o-transform: translateX(650px);
+  -ms-transform: translateX(650px);
+  transform: translateX(650px);
+}
+
+/* line 159 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#game .character.left-side {
+  -webkit-transform: translateX(400px);
+  -moz-transform: translateX(400px);
+  -o-transform: translateX(400px);
+  -ms-transform: translateX(400px);
+  transform: translateX(400px);
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\viewport.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\viewport.styl */
+.viewport {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-left: -512px;
+  margin-top: -384px;
+  left: 50%;
+  top: 50%;
+}
