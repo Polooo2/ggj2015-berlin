@@ -97,13 +97,9 @@
         if (final) {
           console.log(scene.parent.parent.world.character.hearts);
 
-          // TODO max hearts
-          if (scene.parent.parent.world.character.hearts === 1) {
-            scene.parent.show('outro');
-          } else {
-            // in case we reached the last answer
-            scene.parent.show('game', true);
-          }
+          // in case we reached the last answer
+          scene.parent.show('game', true);
+
         }
       }
     }
@@ -119,7 +115,12 @@
     // check for las answer
     if (!text) {
       text = dialogData[path + 'F'] || dialogData[path + 'S'];
-      scene.parent.parent.world.character.hearts += dialogData[path + 'F'] ? 1 : 0;
+      // add a heart if this was a successful dialog
+      if (dialogData[path + 'S']) {
+        scene.parent.parent.world.character.hearts += 1;
+        world.audio.play('heart')
+      }
+
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     }
