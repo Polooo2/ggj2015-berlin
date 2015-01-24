@@ -10,9 +10,6 @@ define(['require'], function(require) {'use strict';
   var i18n = require('mygame/i18n');
   var world = require('mygame/world');
   var PrefabManager = require('lyria/prefab/manager');
-  var Scene = require('lyria/scene');
-
-  Scene.requireAlways['']
 
   // Create a new game object
   var myGame = new Game();
@@ -39,7 +36,7 @@ define(['require'], function(require) {'use strict';
 
   // If preloader is complete, everything in this function happens
   myGame.preloader.on('complete', function() {
-    myGame.showScene('conversation', {test: 123});
+    myGame.showScene('character');
   });
 
   // Set asset list for preloader
