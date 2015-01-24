@@ -1,26 +1,59 @@
-AP-1,"Enchanté mademoiselle, je m'appelle Armoise"
+AP-1,"Enchanté mademoiselle, je m'appelle <i>Armoise</i>."
 AP0,"Whatever, Phostnack here."
-AP1,"I can't help but wònder what yor bodì is made ov, my dear."
-AP2,"I bèlieve we should dàns toghetèr on thìs lounge musìc, my dear."
-AP3,"Yor jellì is oh so very slimy, my dear. Je suis captiveted."
-AP10,"And you'll keep beeing that way, ""my dear"". Wondering, that is. "
-AP20,"And I believe we should not, here's a stalmate for you. "
+AP1,"I can't help but wònder what your majèstìque bodì is made of, my chéri."
+AP2,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì..."
+AP3,"Your <i>turquoise</i> jellì is ...oh so very delicatlì shinì, marvellouslì sparklìng... Je suis <i>captiveted</i>."
+AP10,"And you'll keep beeing that way 'my chéri'. Wondering, that is. "
+AP20,And I believe we should not. Here's a stalmate for you. 
 AP30,"Some people are lucky, I just so happen to be one of them. "
-AP11,"Oh my gùdness, is sòmething troublìng you? That was mirablì üptight my sweet slaìm?"
-AP12,"Oh, but I'm redì to do whatevèr you ask ov me for that ànswer, you see."
-AP13,You're very mystèrious... Armoius likes mystèrious.
-AP11F,"Well, if i pay close attention to it actually yes: it's you."
-AP12S,"I do. How about some **** than? I can **** and you'd **** me, than we'll **** and **** and ****"
-AP13F,"But Phostnack does not like Armoise, goodbye"
-AP21,"Oh, why so? Are you perhaps unconfident ov yor skìlls? "
-AP22,Don't be shy sweetheart I'll gàid you
-AP23,Very determìnd... Armoise likes determind
+AP11,"Sacré bleu, is sòmething troublìng your days chéri? I could hear you out ma fille, you onlì need ask."
+AP12,"Oh, but I'm redì to do whatevèr you ask of me for that <i>answer</i>, you see."
+AP13,"You're very mystèrious... <i>Armoius</i>, he likes mystèrious."
+AP11F,"Well, if i pay close attention to it actually there is some small thing that's troubling me: it's you."
+AP12S,"I do. How about some flasging than? I can giggle and you'd ring my bells, than we'll mour and pour and..."
+AP13F,"But Phostnack does not like Armoise, goodbye."
+AP21,"Oh, why so? Are you perhaps <i>insecure</i> of your skìlls? "
+AP22,Don't be shy chéri I'll <i>gide</i> you
+AP23,"Very determìnd... <i>Armoise</i>, he likes determìnd"
 AP21F,Actually I simply find you repulsive
-AP22S,And guide me than!
-AP23S,"And, as it happens, Phostnack likes determined too..."
-AP31,"I can't help but wònder what yor bodì is made ov, my dear."
-AP32,"I bèlieve we should dàns toghetèr on thìs lounge musìc, my dear."
-AP33,"Some othèr pepòl like confidàns, it just so hàppens that I'm one of them."
+AP22S,And guide me then!
+AP23S,"And, as it happens, actually Phostnack likes determined too..."
+AP31,"I can't help but wònder what your majèstìque bodì is made of, my chéri."
+AP32,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì..."
+AP33,"Some othèr pepòl like confidànce, as it hàppens I'm one of them."
 AP31S,"It's made of sweet love, sweet love for you Armoise"
 AP32S,And dancing it will be.
 AP33S,"That's very nice of you to say. Well, gotta go now."
+,
+AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>"
+AD0,"H-Hello, I'm Democritus... but my friends call me Demmy!"
+AD1,"Interestìng, and why do they call you so?"
+AD2,"Sure they do chéri, sure they do. Can I take a bètter look at that <i>armor</i>?"
+AD3,"What you hav thère is a verì nice <i>armor</i> spycì, very nice."
+AD10,"Well... I... I wouldn't know sir, I've never asked myself..."
+AD20,Well... I... ok.
+AD30,"Thank y-you, it is a present from my e-eighth birthday... grandma made it."
+AD11,"Oh, you nèver did? Are you not curiòse?"
+AD12,I would rejoice if you'd àllow me to càll you: Amour...
+AD13,I'm sure they càll you so because of your _____________
+AD110,Well... I...
+AD12S,Ohoh... I... mmmh.
+,
+AD21,"Ohohoh, what do we hav hère? That is very gracefùl, how dìd it becàme so?"
+AD22,"Ohohoh, what do we hav hère? That is very gracefùl, indeed. Shall I?"
+AD23,"Ohohoh, what do we hav hère? That is very gracefùl!"
+AD21S,Aaah... I.. huhuhuh
+AD22S,Aaah... I.. huhuhuh
+AD23S,Aaah... I.. huhuhuh
+AD31,
+AD32,
+AD33,
+,
+,
+,
+AD111,"You're verì modest Demmy, one còuld say bàshful... do you perhaps fàncy me so?"
+AD112,"Ooooh... you're so cùte Demmy! Come here, I'll curl you up forevèr!"
+AD113,You are simplì gorgeous my sweet Demmy. Gorgeous.
+AD111,I... I... *Demetrius runs away*
+AD1112S,
+AS113S,Oh... uh... I... eheh.
