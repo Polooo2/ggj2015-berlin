@@ -22,15 +22,15 @@
     var npcName;
     switch (npcNumber) {
       case 'npc0':
-        dialogData = world.data.D;
+        dialogData = world.data.D[world.character.name];
         npcName = 'Demolitos';
         break;
       case 'npc1':
-        dialogData = world.data.T;
+        dialogData = world.data.T[world.character.name];
         npcName = 'Table';
         break;
       case 'npc2':
-        dialogData = world.data.P;
+        dialogData = world.data.P[world.character.name];
         npcName = 'Phostnack';
         break;
     }

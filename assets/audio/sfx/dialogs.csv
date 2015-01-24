@@ -1,0 +1,120 @@
+AP-1,"Enchanté mademoiselle, je m'appelle <i>Armoise</i>.",,
+AP0,"Whatever, Phostnack here.",,
+AP1,"I can't help but wònder what your majèstìque bodì is made of, mon chéri.",,
+AP2,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì...",,
+AP3,"Your <i>turquoise</i> bodì is ...oh so very delicatlì shinì, marvellouslì sparklìng... Je suis <i>captiveted</i>.",,
+AP10,"And you'll keep being that way 'mon chéri'. Wondering, that is. ",,repulse
+AP20,And I believe we should not. Here's a stalemate for you. ,,repulse
+AP30,"Some people are lucky, I just so happen to be one of them. ",,
+AP11,"Sacré bleu, is sòmething troublìng your days chéri? I could hear you out ma fille, you onlì need ask.",,
+AP12,"Oh, but I'm redì to do whatevèr you ask of me for that <i>answer</i>, you see.",,
+AP13,"You're very mystèrious... <i>Armoise</i>, he likes mystèrious.",,
+AP11F,"Well, if I pay close attention to it there is one small thing that's troubling me: it's you.",,repulse
+AP12S,"I do. How about some floobing then? I can giggle and you'd dribble my bells, than we'll wobble and bobble and...",,aroused
+AP13F,"But Phostnack does't like Armoise, goodbye.",,repulse
+AP21,"Oh, why so? Are you perhaps <i>insecure</i> of your skìlls? ",,
+AP22,Don't be shy chéri I'll <i>gide</i> you,,
+AP23,"Very determìnd... <i>Armoise</i>, he likes determìnd",,
+AP21F,Actually I simply find you repulsive,,repulse
+AP22S,So guide me then!,,aroused
+AP23F,"But Phostnack does't like Armoise, goodbye.",,repulse
+AP31,"I can't help but wònder what your majèstìque bodì is made of, mon chéri.",,
+AP32,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì...",,
+AP33,"Some othèr pepòl like confidànce, as it happens I'm one of them.",,
+AP31S,"It's made of sugar, Armoise, do you want some?",,aroused
+AP32S,And dancing it shall be.,,aroused
+AP33F,"That's very nice of you to say. Well, gotta go now.",,
+,,,
+AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>",,
+AD0,"H-Hello, I'm Demolitos... but my friends call me Demmy!",,
+AD1,Why are you carrìng those mancìng and eavì <i>axes</i> in an élevateur mon chéri? ,,
+AD2,"Demmì, what a cute name. Can I touch your <i>axes</i> mon chéri?",,
+AD3,"Those are verì wide shoulders mon chérì. <i>Armoise</i>, he likes wide shoulders.",,
+AD10,I... I'm a Warrior.,,confident
+AD20,NO! I-I'm sorry... they are a present from my e-eighth birthday... Grandma made them!,,confident
+AD3S,I... eheh... thank you!,,blush
+AD11,"Oh, I wònder what terrible <i>catastrophe</i> may have pushed you to becòme one.",,
+AD12,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD13,"You look verì strong indeed! <i>Armoise</i>, he likes strong.",,
+AD110,C-catastrophe? No! I just want to be the stro-strongest warrior!,,blush
+AD12S,Ah! Oh! Wuatà!,,confident
+AD13S,I... uh... thank you!,,blush
+AD21,"Oh! How verì nice of her, and you got your majestìque shoulders swinging them, did you?",,
+AD22,"Oh! How verì nice of her, show me how you powerfully swing them mon chéri!",,
+AD23,"You have verì wide shoulders mon chèrì. <i>Armoise</i>, he likes wide shoulders.",,
+AD21S,eheh... yes I did,,blush
+AD22S,Ah. Oh. UuuuOh!,,confident
+AD23S,I... eheh... thank you!,,blush
+AD111,"That's very cute of you mon chéri, I wònder what you destinatìon may be.",,
+AD112,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD113,"You're very ambitious Demmì. <i>Armoise</i>, he likes ambitious.",,
+AD111F,I... well... it's this floor. *Demolitos get's off*,,
+AD112S,Ah! Oh! Wuatà!,,blush
+AS113S,Oh... uh... I... eheh.,,blush
+,,,
+DP-1,Bark Bark,,
+DP0,"Bark, sure.",,
+DP1,Bark!,,
+DP2,Woof!,,
+DP3,Anf anf,,
+DP1F,"Whatever, goodbye.",,
+DP20,What did you say? You think you're better than me?,,repulse
+DP3S,"Ooh, that's a-d-o-r-a-b-l-e!",,aroused
+DP21,Bark!,,
+DP22,Woof!,,
+DP23,Anf anf,,
+DP21S,Oh... you ment/ oh. I'm sorry Bark! What can I do to apologise?,,aroused
+DP22F,Who gives you the right to tell me that? How can you... go NACK yourself! *goes away*,,repulse
+DP23S,You! You... you're right. How couldn't I see that before? I should've never told her... Thank you! Thank you oh so very much!,,
+,,,
+DD-1,Bark Bark,,
+DD0,"Ooh, what a nice doggy!",,excited
+DD1,Bark!,,
+DD2,Woof!,,
+DD3,Anf anf,,
+DD1S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,excited
+DD20,Grandma made them! They are the best axes in the whole world!,,excited
+DD30,"I'm not gonna fight you Bark, I simply won't.",,excited
+DD21,Bark!,,
+DD22,Woof!,,
+DD23,Anf anf,,
+DD21F,I... that is... I would never...,,blush
+DD22S,Ahahahah! His shoes! ahahahah!,,excited
+DD23S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,
+DD31,Bark!,,
+DD32,Woof!,,
+DD33,Anf anf,,
+DD31S,I... uh... thank you!,,blush
+DD32S,eheh... yes I did,,excited
+DD33F,It's because I'm a warrior!,,excited
+,,,
+AT-1,"Sacré bleu, a walking <i>Table</i>!",,
+AT0,... ,,
+AT1,How... did this <i>Table</i> walk here? ,,
+AT2,"Mmmh, I wònder if I should engage in some ploisur with Table here...",,
+AT3,"What a finelì crafted <i>Table</i>. Armoise, he likes finelì crafted.",,
+AT1F,...,,
+AT2S,...,,
+AT3S,...,,
+,,,
+DT-1,Bark Bark!,,
+DT0,...,,
+DT1,Bark!,,
+DT2,Woof! Woof!,,
+DT3,Anf anf anf anf anf anf,,
+DT1S,"crick, crick, crick, crick, crick...",,
+DT2S,"crick, crick, crick, crick, crick...",,
+DT3S,"crick, crick, crick, crick, crick...",,
+,,,
+MD-1,Don't know. How 'bout making out?,,
+MD0,Uh! ... what? I... My name is Demolitos.,,blush
+MD1,"And I'm Meryl sweetheart, how'd you like some tickling? *giggle*",,
+MD2,"And I'm Meryl sweetheart. Good, now we know each other, time to make out?",,
+MD3,"And I'm Meryl sweetheart. So, you got some preatty nice shoulders going for you there. ",,
+MD1S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
+MD20,I... would... I mean... what?!,,blush
+MD30,Ah! oh... thank you!,,blush
+MD21,You would? Than what are we waiting for! *assault*,,
+MD22,"Make out, as to nack, skrew, play, shak, vang, smeep with...",,
+MD23,,,
+MD21S,Ah... what are you... Oh! Not there... ohohohoh...,,blush

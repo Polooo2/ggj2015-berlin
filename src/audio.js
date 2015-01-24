@@ -61,7 +61,7 @@ define(['require'], function(require) {
 
       audio.on('ended', function(id) {
         if (id === 'elevator-start') {
-          playSound('elevator-running', -1);
+          play('elevator-running', -1);
         }
       });
     },

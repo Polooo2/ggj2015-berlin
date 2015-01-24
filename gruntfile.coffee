@@ -23,7 +23,9 @@ module.exports = (grunt) ->
   grunt.registerTask 'production', 'Production build', ['development', 'copy:production', 'uglify',
                                                         'stylus:production', 'consolidate:production']
   grunt.registerTask 'pack', 'Packs project', ['production', 'compress']
-  grunt.registerTask 'deploy', 'Builds project in production mode and deploys to Github Pages', ['clean:gh_pages', 'production', 'gh-pages']
+  grunt.registerTask 'deploy', 'Builds project in production mode and deploys to Github Pages', ['clean:gh_pages',
+                                                                                                 'production',
+                                                                                                 'gh-pages']
 
   grunt.registerTask 'build', 'Builds the default project', ['development']
 
@@ -38,8 +40,7 @@ module.exports = (grunt) ->
   `grunt.registerTask('csvToJson', 'move dialogs from csv to json', function() {
       var csvFile = grunt.file.read('dialogs.csv');
       var csvLines = csvFile.split(endOfLine);
-      var currentFile = {};
-      var currentName = '';
+      var files = {};
       csvLines.forEach(function(line) {
           var cells = line.split(',"');
           var text;
@@ -49,21 +50,37 @@ module.exports = (grunt) ->
           } else {
               cells = [cells[0]].concat(cells[1].split('",,'));
           }
-          var code = cells[0];
+          var code = cells[0].substr(2);
+          if (code === '') {
+            return;
+          }
           // remove ending double quotes
           var text = cells[1];
           var emotion = cells[2];
-          if (code[1] !== currentName) {
-              if (currentName !== '') {
-                  // write file with obj to file system
-                  grunt.file.write('assets/data/dialog/' + currentName + '.json', JSON.stringify(currentFile));
-              }
-              currentName = code[1];
-              currentFile = {};
+          var currentName = cells[0][1];
+          if (!files[currentName]) {
+              files[currentName] = {
+                  'Bark': {},
+                  'Meryl': {},
+                  'Armoise': {}
+              };
           }
-          currentFile[cells[0].substr(2)] = text;
+          switch (cells[0][0]) {
+              case 'D':
+                  files[currentName].Bark[code] = text;
+                  break;
+              case 'M':
+                  files[currentName].Meryl[code] = text;
+                  break;
+              case 'A':
+                  files[currentName].Armoise[code] = text;
+                  break;
+          }
+
+      });
+      Object.keys(files).forEach(function(key) {
+          // write last element to a json file
+          grunt.file.write('assets/data/dialog/' + key + '.json', JSON.stringify(files[key], '  '));
       });
 
-      // write last element to a json file
-      grunt.file.write('assets/data/dialog/' + currentName + '.json', JSON.stringify(currentFile));
   });`
