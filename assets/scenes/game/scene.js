@@ -11,14 +11,16 @@
         'startY': -2304,
         disableMouse: true,
         disablePointer: true,
-        disableTouch: true
+        disableTouch: true,
+        snap: 'li'
       });
+      myScroll.goToPage(0, 3, 0);
       startCharacterMoving('hero1', 'right', false, function() {
         startCharacterMoving('npc0', 'left', true, function() {
           // Add a few millis in between
           setTimeout(function() {
             scene.parent.show('conversation');
-          }, 350);
+          }, 850);
         });
       });
     }
@@ -33,14 +35,21 @@
 
   function floorUp() {
     floor++;
-    myScroll.scrollBy(0, 768, 2000);
-    if (myScroll.y > -768) {
+    myScroll.prev();
+    if (myScroll.currentPage.pageY === 0) {
       // jump four tiles down
-      myScroll.scrollBy(0, -768 * 4);
+      myScroll.goToPage(0, 4, 0);
     }
 
   }
 
+  /**
+   *
+   * @param name
+   * @param side
+   * @param inbetween
+   * @param callback
+   */
   function startCharacterMoving(name, side, inbetween, callback) {
     var $character = $('.character.' + name, scene.$element);
     $character.removeClass('hidden');
@@ -50,28 +59,28 @@
 
       // This should be rather onTransitionEnd, but I'm not sure about its iOS support
       $character.on('transitionend', function() {
-        floorUp();
+        setTimeout(function() {
+          floorUp();
 
-        $('#scroller', scene.$element).on('transitionend', function() {
+          myScroll.on('scrollEnd', function() {
 
-          if (inbetween) {
-            if (callback) {
-              callback();
+            if (inbetween) {
+              if (callback) {
+                callback();
+              }
+            } else {
+              setTimeout(function() {
+                floorUp();
+                myScroll.on('scrollEnd', function() {
+                  if (callback) {
+                    callback();
+                  }
+                });
+              }, 350);
             }
-          } else {
-            setTimeout(function() {
-              floorUp();
 
-              $('#scroller', scene.$element).on('transitionend', function() {
-                if (callback) {
-                  callback();
-                }
-              });
-            }, 350);
-          }
-
-        });
-
+          });
+        }, 550);
       });
     }, 200);
   }
