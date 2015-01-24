@@ -35,8 +35,15 @@
     '[data-name*="conversation"]': {
       'click': function(event) {
         if (final) {
-          // in case we reached the last answer
-          scene.parent.show('game', true);
+          console.log(scene.parent.parent.world.character.hearts);
+
+          // TODO max hearts
+          if (scene.parent.parent.world.character.hearts === 1) {
+            scene.parent.show('outro');
+          } else {
+            // in case we reached the last answer
+            scene.parent.show('game', true);
+          }
         }
       }
     }
