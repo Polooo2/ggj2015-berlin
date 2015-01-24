@@ -13,7 +13,8 @@
     "lyria": "~0.2.11",
     "normalize-css": "~2.1.2",
     "fastclick": "1.0.x",
-    "iscroll": "5.1.x"
+    "iscroll": "5.1.x",
+    "typed.js": "*"
   },
   "devDependencies": {
     "mocha": "*",
