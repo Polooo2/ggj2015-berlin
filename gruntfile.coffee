@@ -7,6 +7,8 @@ module.exports = (grunt) ->
         lyriaData: 'grunt-lyria-assets'
         lyriaAssetList: 'grunt-lyria-assets'
         lyriaScene: 'grunt-lyria-assets'
+        releaseBranch: 'grunt-release-branch'
+        preReleaseBranch: 'grunt-release-branch'
 
   grunt.registerTask 'prebuild', 'Task before building the project', ['lyriaScene', 'lyriaAssetList', 'lyriaData',
                                                                       'amd_tamer:dist']
