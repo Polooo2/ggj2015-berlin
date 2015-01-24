@@ -24,7 +24,8 @@
         var $speechContainer = $('.speech-bubble-container', scene.$element);
         $speechContainer.removeClass('hidden');
         // This looks weird and it is
-        $speechContainer.css('left', $target.position().left + 'px');
+        $speechContainer.css('left', $target.position().left + ($target.width() / 4) + 'px');
+        $speechContainer.css('top', ($target.position().top - 100) + 'px');
       });
     })(i);
   }
