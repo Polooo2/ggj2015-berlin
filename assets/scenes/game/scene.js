@@ -6,6 +6,12 @@
   var floor = 0;
   var level = 0;
 
+  var npcStuck = {
+    '0': 'What... ? Are we... stuck? What... do we... do now?',
+    '1': '...',
+    '2': 'What the nack? Are we stuck?... What do we do now?'
+  };
+
   scene.on('active', function(afterConversation) {
     if (!myScroll) {
       world.audio.stop('character-sel');
@@ -29,15 +35,19 @@
 
           scene.$element.addClass('shake animated');
 
-          $('.bubble > .text').remove();
-          $('.bubble').append('<div class="text"></div>');
+          $('.bubble > .text', scene.$element).remove();
+          $('.bubble', scene.$element).append('<div class="text"></div>');
 
           $('.bubble', scene.$element).fadeIn(100, function() {
-            setTimeout(function() {
-              $('.bubble > .text').typed({strings: ['?!']});
-              scene.$element.removeClass('shake animated');
-              scene.parent.show('conversation', 'npc' + level);
-            }, 2250);
+            $('.bubble > .text', scene.$element).typed({strings: [npcStuck[level]], callback: function() {
+              setTimeout(function() {
+                $('.bubble', scene.$element).fadeOut(100, function() {
+                  scene.$element.removeClass('shake animated');
+                  scene.parent.show('conversation', 'npc' + level);
+                });
+              }, 2250);
+            }});
+
           });
         });
       });
@@ -59,20 +69,25 @@
           } else {
             // move new npc in
             startCharacterMoving('npc' + level, 'left', true, function() {
-              scene.$element.addClass('shake animated');
-
               world.audio.stop('elevator-running');
               world.audio.play('elevator-stop');
 
+              scene.$element.addClass('shake animated');
+
+              $('.bubble > .text', scene.$element).remove();
+              $('.bubble', scene.$element).append('<div class="text"></div>');
+
               $('.bubble', scene.$element).fadeIn(100, function() {
+                $('.bubble > .text', scene.$element).typed({strings: [npcStuck[level]], callback: function() {
+                  setTimeout(function() {
+                    $('.bubble', scene.$element).fadeOut(100, function() {
+                      scene.$element.removeClass('shake animated');
+                      scene.parent.show('conversation', 'npc' + level);
+                    });
+                  }, 2250);
+                }});
 
               });
-
-              // Add a few millis in between
-              setTimeout(function() {
-                scene.$element.removeClass('shake animated');
-                scene.parent.show('conversation', 'npc' + level);
-              }, 1850);
             });
           }
         });
