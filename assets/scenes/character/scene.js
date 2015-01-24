@@ -24,8 +24,8 @@
         var $speechContainer = $('.speech-bubble-container', scene.$element);
         $speechContainer.removeClass('hidden');
 
-        $speechContainer.css('left', $target.position().left + ($target.width() / 4) + 'px');
-        $speechContainer.css('top', ($target.position().top - 100) + 'px');
+        $speechContainer.css('left', $target.offset().left - $('.viewport').offset().left + ($target.width() / 4) + 'px');
+        $speechContainer.css('top', ($target.offset().top - $('.viewport').offset().top - 100) + 'px');
       });
     })(i);
   }

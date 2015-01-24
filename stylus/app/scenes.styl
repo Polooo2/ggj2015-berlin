@@ -62,15 +62,8 @@ $seperator = 650px;
       z-index: 1;
       -webkit-tap-highlight-color: rgba(0,0,0,0);
       width: 100%;
-      -webkit-transform: translateZ(0);
-      -moz-transform: translateZ(0);
-      -ms-transform: translateZ(0);
-      -o-transform: translateZ(0);
       transform: translateZ(0);
       -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
       user-select: none;
     }
     #scroller ul {
@@ -100,5 +93,31 @@ $seperator = 650px;
     width: $seperator;
     height: 100%;
     background-image: url(asset('game/elevator.png'))
+  }
+  .character {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    transition: transform 2000ms;
+
+    &.hero1 {
+      background-image: url(asset('armoise.png'));
+      width: 287px;
+      height: 456px;
+    }
+
+    &.npc0 {
+      background-image: url(asset('phostnack.png'))
+      width: 280px;
+      height: 337px;
+    }
+
+    &.right-side {
+      transform: translateX(650px)
+    }
+
+    &.left-side {
+      transform: translateX(400px)
+    }
   }
 }
