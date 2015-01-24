@@ -3,42 +3,80 @@
   width: 100%
   height: 100%
 
+#outro
+  .background
+    background-image: url(asset('outro/background.png'))
+    width: 100%;
+    height: 100%;
+
 #conversation {
-  .conversation-area {
-    height: 50%;
-    bottom: 0px;
+  .background {
+    background-image: url(asset('conversation/background.png'));
+    width: 100%;
+    height: 100%;
     position: absolute;
-    margin-left: 20px;
-    background-color: lightgray;
-    border-radius: 5px;
-    padding: 10px;
-    width: 95%;
+  }
+
+  .portrait {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-repeat: no-repeat;
+
+    &[data-name=npc0] {
+      background-image: url(asset('phostnack.png'));
+    }
+  }
+
+  .conversation-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 
     .text {
       margin-top: 50px;
+
+      &-npc, &-character {
+        padding: 20px;
+        background-color: #f3c7c7;
+        border-radius: 20px;
+        border: 10px solid #740342;
+        padding: 40px;
+        position: absolute;
+        width: 600px;
+        height: 160px;
+        box-shadow: 2px 2px 6px #444;
+      }
+
       &-npc {
         float: left;
         clear: right;
-        margin-bottom: 50px;
         text-align: left;
-        width: 85%
+        right: 40px;
+        top: 50px;
+        width: 490px;
       }
       &-character {
-        margin-bottom: 50px;
-        float: right
         text-align: right;
-        width: 85%
+        bottom: 10px;
+        width: 80%;
+        left: 5%;
       }
     }
     .answers {
-      clear: both;
-      text-align: center;
+      position: absolute;
+      right: 40px;
+      bottom: 350px;
     }
 
     .answer {
-      background-color: gray;
-      border-radius: 5px;
-      padding: 3px;
+      background-color: #740342;
+      color: #f3c7c7;
+      border-radius: 6px;
+      padding: 8px;
       margin: 5px;
     }
   }
