@@ -54,11 +54,6 @@
       scene.parent.parent.world.character.hearts += dialogData[path + 'F'] ? 1 : 0;
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
-    } else {
-      // fill answer choices
-      $('[data-behavior*="answer"][data-type*="1"]', $conversationArea).text(dialogData[path + '1']);
-      $('[data-behavior*="answer"][data-type*="2"]', $conversationArea).text(dialogData[path + '2']);
-      $('[data-behavior*="answer"][data-type*="3"]', $conversationArea).text(dialogData[path + '3']);
     }
     $('[data-name*="text-npc"]', $conversationArea).text(text);
     console.log($('[data-name*="text"]', $conversationArea))

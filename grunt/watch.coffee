@@ -1,6 +1,6 @@
 module.exports =
   options:
-    livereload: true
+    livereload: false
   stylus:
     files: 'stylus/**/*.styl',
     tasks: ['stylus:development']
