@@ -44,10 +44,13 @@
   }
 }
 
+
+$seperator = 650px;
+
 #game {
   .floors {
     float: left;
-    width: 50%;
+    width: (1024px - $seperator);
     #wrapper {
       height: 768px;
       z-index: 1;
@@ -78,10 +81,24 @@
     }
     #scroller li {
       height:768px;
+
+      &.inbetween {
+        background-image: url(asset('game/inbetween.png'));
+      }
+
+      &.floor1 {
+        background-image: url(asset('game/floor1.png'));
+      }
+
+      &.floor2 {
+        background-image: url(asset('game/floor2.png'));
+      }
     }
   }
   .elevator {
     float: left;
-    width: 50%;
+    width: $seperator;
+    height: 100%;
+    background-image: url(asset('game/elevator.png'))
   }
 }
