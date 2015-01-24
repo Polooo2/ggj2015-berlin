@@ -7,7 +7,7 @@ module.exports =
       'build/debug/js/eventmap.js': 'eventmap/dist/eventmap.js'
       'build/debug/js/fastclick.js': 'fastclick/lib/fastclick.js'
       'build/debug/js/handlebars.js': 'handlebars/handlebars.amd.js'
-      'build/debug/js/jquery.js': 'jquery/jquery.js'
+      'build/debug/js/jquery.js': 'jquery/dist/jquery.js'
       'build/debug/js/jquery.typed.js': 'typed.js/js/typed.js'
       'build/debug/js/gameboard.js': 'gameboard/dist/gameboard.js'
       'build/debug/js/lyria.js': 'lyria/dist/js/lyria.js'
