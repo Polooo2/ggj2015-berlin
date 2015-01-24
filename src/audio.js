@@ -7,11 +7,12 @@ define(['require'], function(require) {
    *
    * @param identifier
    */
-  function play(identifier) {
+  function play(id, loop) {
     if (audio) {
-      audio.play(identifier, -1);
+      audio.play(id, loop);
     }
   }
+
   return {
     init: function() {
       audio = new LyriaAudioManager();
@@ -27,6 +28,32 @@ define(['require'], function(require) {
         volume: 0.8
       });
 
+      audio.add({
+        id: 'elevator-running',
+        paths: ['assets/audio/sfx/Elevator_running.mp3'],
+        volume: 1
+      });
+      audio.add({
+        id: 'elevator-start',
+        paths: ['assets/audio/sfx/Elevator_starts.mp3'],
+        volume: 1
+      });
+      audio.add({
+        id: 'elevator-stop',
+        paths: ['assets/audio/sfx/Elevator_stops.mp3'],
+        volume: 1
+      });
+      audio.add({
+        id: 'elevator-ding',
+        paths: ['assets/audio/sfx/Elevator_Ding.mp3'],
+        volume: 1
+      });
+
+      audio.on('ended', function(id) {
+        if (id === 'elevator-start') {
+          playSound('elevator-running', -1);
+        }
+      });
     },
     play: play,
     stop: function(id) {

@@ -1,59 +1,98 @@
-AP-1,"Enchanté mademoiselle, je m'appelle <i>Armoise</i>."
-AP0,"Whatever, Phostnack here."
-AP1,"I can't help but wònder what your majèstìque bodì is made of, my chéri."
-AP2,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì..."
-AP3,"Your <i>turquoise</i> jellì is ...oh so very delicatlì shinì, marvellouslì sparklìng... Je suis <i>captiveted</i>."
-AP10,"And you'll keep beeing that way 'my chéri'. Wondering, that is. "
-AP20,And I believe we should not. Here's a stalmate for you. 
-AP30,"Some people are lucky, I just so happen to be one of them. "
-AP11,"Sacré bleu, is sòmething troublìng your days chéri? I could hear you out ma fille, you onlì need ask."
-AP12,"Oh, but I'm redì to do whatevèr you ask of me for that <i>answer</i>, you see."
-AP13,"You're very mystèrious... <i>Armoius</i>, he likes mystèrious."
-AP11F,"Well, if i pay close attention to it actually there is some small thing that's troubling me: it's you."
-AP12S,"I do. How about some flasging than? I can giggle and you'd ring my bells, than we'll mour and pour and..."
-AP13F,"But Phostnack does not like Armoise, goodbye."
-AP21,"Oh, why so? Are you perhaps <i>insecure</i> of your skìlls? "
-AP22,Don't be shy chéri I'll <i>gide</i> you
-AP23,"Very determìnd... <i>Armoise</i>, he likes determìnd"
-AP21F,Actually I simply find you repulsive
-AP22S,And guide me then!
-AP23S,"And, as it happens, actually Phostnack likes determined too..."
-AP31,"I can't help but wònder what your majèstìque bodì is made of, my chéri."
-AP32,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì..."
-AP33,"Some othèr pepòl like confidànce, as it hàppens I'm one of them."
-AP31S,"It's made of sweet love, sweet love for you Armoise"
-AP32S,And dancing it will be.
-AP33S,"That's very nice of you to say. Well, gotta go now."
-,
-AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>"
-AD0,"H-Hello, I'm Democritus... but my friends call me Demmy!"
-AD1,"Interestìng, and why do they call you so?"
-AD2,"Sure they do chéri, sure they do. Can I take a bètter look at that <i>armor</i>?"
-AD3,"What you hav thère is a verì nice <i>armor</i> spycì, very nice."
-AD10,"Well... I... I wouldn't know sir, I've never asked myself..."
-AD20,Well... I... ok.
-AD30,"Thank y-you, it is a present from my e-eighth birthday... grandma made it."
-AD11,"Oh, you nèver did? Are you not curiòse?"
-AD12,I would rejoice if you'd àllow me to càll you: Amour...
-AD13,I'm sure they càll you so because of your _____________
-AD110,Well... I...
-AD12S,Ohoh... I... mmmh.
-,
-AD21,"Ohohoh, what do we hav hère? That is very gracefùl, how dìd it becàme so?"
-AD22,"Ohohoh, what do we hav hère? That is very gracefùl, indeed. Shall I?"
-AD23,"Ohohoh, what do we hav hère? That is very gracefùl!"
-AD21S,Aaah... I.. huhuhuh
-AD22S,Aaah... I.. huhuhuh
-AD23S,Aaah... I.. huhuhuh
-AD31,
-AD32,
-AD33,
-,
-,
-,
-AD111,"You're verì modest Demmy, one còuld say bàshful... do you perhaps fàncy me so?"
-AD112,"Ooooh... you're so cùte Demmy! Come here, I'll curl you up forevèr!"
-AD113,You are simplì gorgeous my sweet Demmy. Gorgeous.
-AD111,I... I... *Demetrius runs away*
-AD1112S,
-AS113S,Oh... uh... I... eheh.
+AP-1,"Enchanté mademoiselle, je m'appelle <i>Armoise</i>.",,
+AP0,"Whatever, Phostnack here.",,
+AP1,"I can't help but wònder what your majèstìque bodì is made of, mon chéri.",,
+AP2,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì...",,
+AP3,"Your <i>turquoise</i> bodì is ...oh so very delicatlì shinì, marvellouslì sparklìng... Je suis <i>captiveted</i>.",,
+AP10,"And you'll keep being that way 'mon chéri'. Wondering, that is. ",,repulse
+AP20,And I believe we should not. Here's a stalemate for you. ,,repulse
+AP30,"Some people are lucky, I just so happen to be one of them. ",,
+AP11,"Sacré bleu, is sòmething troublìng your days chéri? I could hear you out ma fille, you onlì need ask.",,
+AP12,"Oh, but I'm redì to do whatevèr you ask of me for that <i>answer</i>, you see.",,
+AP13,"You're very mystèrious... <i>Armoius</i>, he likes mystèrious.",,
+AP11F,"Well, if I pay close attention to it there is one small thing that's troubling me: it's you.",,repulse
+AP12S,"I do. How about some floobing then? I can giggle and you'd dribble my bells, than we'll wobble and bobble and...",,aroused
+AP13F,"But Phostnack does't like Armoise, goodbye.",,repulse
+AP21,"Oh, why so? Are you perhaps <i>insecure</i> of your skìlls? ",,
+AP22,Don't be shy chéri I'll <i>gide</i> you,,
+AP23,"Very determìnd... <i>Armoise</i>, he likes determìnd",,
+AP21F,Actually I simply find you repulsive,,repulse
+AP22S,So guide me then!,,aroused
+AP23F,"But Phostnack does't like Armoise, goodbye.",,repulse
+AP31,"I can't help but wònder what your majèstìque bodì is made of, mon chéri.",,
+AP32,"I bèlieve we should dàns toghetèr on thìs <i>lounge</i> musìque. Slowlì, charminglì, passionatelì...",,
+AP33,"Some othèr pepòl like confidànce, as it happens I'm one of them.",,
+AP31S,"It's made of sugar, Armoise, do you want some?",,aroused
+AP32S,And dancing it shall be.,,aroused
+AP33F,"That's very nice of you to say. Well, gotta go now.",,
+,,,
+AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>",,
+AD0,"H-Hello, I'm Demolitos... but my friends call me Demmy!",,
+AD1,Why are you carrìng those mancìng and eavì <i>axes</i> in an élevateur mon chéri? ,,
+AD2,"Demmì, what a cute name. Can I touch your <i>axes</i> mon chéri?",,
+AD3,"Those are verì wide shoulders mon chérì. <i>Armoise</i>, he likes wide shoulders.",,
+AD10,I... I'm a Warrior.,,confident
+AD20,NO! I-I'm sorry... they are a present from my e-eighth birthday... Grandma made them!,,confident
+AD3S,I... eheh... thank you!,,blush
+AD11,"Oh, I wònder what terrible <i>catastrophe</i> may have pushed you to becòme one.",,
+AD12,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD13,"You look verì strong indeed! <i>Armoise</i>, he likes strong.",,
+AD110,C-catastrophe? No! I just want to be the stro-strongest warrior!,,blush
+AD12S,Ah! Oh! Wuatà!,,confident
+AD13S,I... uh... thank you!,,blush
+AD21,"Oh! How verì nice of her, and you got your majestìque shoulders swinging them, did you?",,
+AD22,"Oh! How verì nice of her, show me how you powerfully swing them mon chéri!",,
+AD23,"You have verì wide shoulders mon chèrì. <i>Armoise</i>, he likes wide shoulders.",,
+AD21S,eheh... yes I did,,blush
+AD22S,Ah. Oh. UuuuOh!,,confident
+AD23S,I... eheh... thank you!,,blush
+AD111,"That's very cute of you mon chéri, I wònder what you destinatìon may be.",,
+AD112,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD113,"You're very ambitious Demmì. <i>Armoise</i>, he likes ambitious.",,
+AD111F,I... well... it's this floor. *Demolitos get's off*,,
+AD112S,Ah! Oh! Wuatà!,,blush
+AS113S,Oh... uh... I... eheh.,,blush
+,,,
+DP-1,Bark Bark,,
+DP0,"Bark, sure.",,
+DP1,Bark  ,,
+DP2,Woof,,
+DP3,Arf,,
+DP1F,"Whatever, goodbye.",,
+DP2S,"Damn it, you're so cute!",,aroused
+DP3S,"Ooh, that's a-d-o-r-a-b-l-e!",,aroused
+,,,
+DD-1,Bark Bark,,
+DD0,"Ooh, what a nice doggy!",,excited
+DD1,Bark  ,,
+DD2,Woof,,
+DD3,Arf,,
+DD1S,"Come here doggy! Aaaww doggy doggy naaawww! Ahahahah, here's take some *num num num-num-num*",,excited
+DD2S,Uhuh cutie doggy come here you gucci gucci guuuuuuu ,,excited
+DD3S,"Ahahahah, here doggy here! *scrubble scrubble* you love it doggy don't you? gucci gucci guuuuu doggy! Eheheh!",,excited
+,,,
+AT-1,"Sacré bleu, a walking <i>Table</i>!",,
+AT0,... ,,
+AT1,How... did this <i>Table</i> walk here? ,,
+AT2,"Mmmh, I wònder if I should engage in some ploisur with Table here...",,
+AT3,"What a finelì crafted <i>Table</i>. Armois, he likes finelì crafted.",,
+AT1F,...,,
+AT2S,...,,
+AT3S,...,,
+,,,
+DT-1,Bark Bark!,,
+DT0,...,,
+DT1,Bark!,,
+DT2,Woof!,,
+DT3,Arf!,,
+DT1S,"crick, crick, crick, crick, crick...",,
+DT2S,"crick, crick, crick, crick, crick...",,
+DT3S,"crick, crick, crick, crick, crick...",,
+,,,
+MD-1,Don't know. How 'bout making out?,,
+MD0,Uh! ... what? I... My name is Demolitos.,,blush
+MD1,"And I'm Meryl sweetheart, how'd you like some tickling? *giggle*",,
+MD2,And I'm Meryl sweetheart. More open to making out now that we know each other?,,
+MD3,"Sure, Demolitos. My name is Meryl. ",,
+MD10,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
+MD20,I... what?! ,,
+MD30,,,

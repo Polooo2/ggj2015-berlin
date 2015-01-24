@@ -8,229 +8,27 @@
     background-image: url(asset('outro/background.png'))
     width: 100%;
     height: 100%;
+    &.success
+      background-image: url(asset('outro/background-success.png'))
 
-#conversation {
-  .background {
-    background-image: url(asset('conversation/background.png'));
+
+#intro
+  .background
+    background-image: url(asset('intro/background.png'))
     width: 100%;
     height: 100%;
-    position: absolute;
+
+  .start {
+    height: 78%
+  }
+  .credits {
+    height: 22%
   }
 
-  .portrait {
-    width: 500px;
-    height: 500px;
-    background-size: contain;
-    position: absolute;
-    left: 48px;
-    top: 20px;
-    background-repeat: no-repeat;
-
-    &[data-name=phostnack] {
-      background-image: url(asset('conversation/portrait_npc_phostnack.png'));
-    }
-  }
-
-  .text {
-    &-npc, &-character {
-      position: absolute;
-      text-align: center;
-      background-repeat: no-repeat;
-
-      .name {
-        position: absolute;
-        color: #f3c7c7;
-        font-size: 1.4rem;
-      }
-
-      .text {
-        position: absolute;
-        color: black;
-        font-size: 1.3rem;
-
-        width: 100%;
-        height: 100%;
-      }
-    }
-
-    &-npc {
-      background-image: url(asset('conversation/bubble_npc.png'));
-      width: 528px;
-      height: 373px;
-      right: 50px;
-      top: 20px;
-
-      .name {
-        right: 50px;
-        top: 12px;
-      }
-
-      .text {
-        margin-top: 75px;
-        margin-left: 15px;
-        width: 500px;
-        height: 225px;
-      }
-    }
-
-    &-character {
-      bottom: 0px;
-      background-image: url(asset('conversation/bubble_actor.png'));
-      width: 1024px;
-      height: 397px;
-
-      .name {
-        position: absolute;
-        right: 295px;
-        bottom: 258px;
-      }
-
-      .text {
-        margin-top: 200px;
-        margin-left: 50px;
-        width: 925px;
-        height: 130px;
-      }
-
-      .icon {
-        position: absolute;
-        width: 174px;
-        height: 174px;
-        right: 105px;
-        top: 7px;
-
-        &[data-name=armoise] {
-          background-image: url(asset('conversation/icon_armoise.png'));
-        }
-      }
-    }
-  }
-  .answers {
-    position: absolute;
-    bottom: 80px;
-  }
-
-  .answer {
-    background-color: #b52d74;
-    border: 8px solid #740342;
-    color: #f3c7c7;
-    border-radius: 8px;
-    display: block;
-    position: absolute;
-    text-align: center;
-
-    padding-top: 12px;
-    font-size: 1.2rem;
-
-    width: 208px;
-    height: 48px;
-
-    &:hover {
-      background-color: #B30025;
-    }
-
-    &:nth-child(1) {
-      left: ((1024px * 0.25) - (208px / 2));
-    }
-
-    &:nth-child(2) {
-      left: ((1024px - 208px) / 2);
-    }
-
-    &:nth-child(3) {
-      left: ((1024px * 0.75) - (208px / 2));
-    }
-  }
-}
-
-
-$seperator = 650px;
-
-#game {
-  background-color: #000000;
-
-  .floors {
-    float: left;
-    width: (1024px - $seperator);
-    #wrapper {
-      height: 768px;
-      z-index: 1;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-    }
-    #scroller {
-      z-index: 1;
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
-      width: 100%;
-      transform: translateZ(0);
-      -webkit-touch-callout: none;
-      user-select: none;
-    }
-    #scroller ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      width: 100%;
-    }
-    #scroller li {
-      height:768px;
-
-      &.inbetween {
-        background-image: url(asset('game/inbetween.png'));
-      }
-
-      &.floor1 {
-        background-image: url(asset('game/floor1.png'));
-      }
-
-      &.floor2 {
-        background-image: url(asset('game/floor2.png'));
-      }
-    }
-  }
-  .elevator {
-    float: left;
-    width: $seperator;
+#credits
+  .background
+    background-image: url(asset('credits/background.png'))
+    width: 100%;
     height: 100%;
-    background-image: url(asset('game/elevator.png'))
-  }
-  .character {
-    position: absolute;
-    bottom: 30px;
-    left: -300px;
-    transition: transform 3000ms;
 
-    &.hero1 {
-      background-image: url(asset('armoise.png'));
-      width: 287px;
-      height: 456px;
-      background-size: contain;
-    }
 
-    &.npc0 {
-      background-image: url(asset('phostnack.png'))
-      width: 280px;
-      height: 337px;
-      background-size: contain;
-    }
-    &.npc1 {
-      background-image: url(asset('armoise.png'));
-      width: 287px;
-      height: 456px;
-      background-size: contain;
-    }
-
-    &.right-side {
-      transform: translateX(980px)
-    }
-
-    &.left-side {
-      transform: translateX(730px)
-    }
-
-    &.out-side {
-      transform: translateX(-730px)
-    }
-  }
-}

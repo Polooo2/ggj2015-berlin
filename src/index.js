@@ -32,11 +32,13 @@ define(['require'], function(require) {'use strict';
     .addScene('character')
     .addScene('conversation')
     .addScene('outro')
+    .addScene('intro')
+    .addScene('credits')
     .addScene('game');
 
   // If preloader is complete, everything in this function happens
   myGame.preloader.on('complete', function() {
-    myGame.showScene('character');
+    myGame.showScene('intro');
   });
 
   // Set asset list for preloader
