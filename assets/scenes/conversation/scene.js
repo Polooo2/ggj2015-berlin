@@ -5,7 +5,7 @@
   var final = false;
   var $conversationArea;
   // TODO
-  var dialogData = scene.parent.parent.world.data.monster;
+  var dialogData = scene.parent.parent.world.data.P;
   scene.on('active', function() {
     if (!$conversationArea) {
       $conversationArea = $('[data-name*="conversation"]', scene.$element)
@@ -50,8 +50,8 @@
     console.log($conversationArea)
     // check for las answer
     if (!text) {
-      text = dialogData[path + 'f'] || dialogData[path + 's'];
-      scene.parent.parent.world.character.hearts += dialogData[path + 'f'] ? 1 : 0;
+      text = dialogData[path + 'F'] || dialogData[path + 'S'];
+      scene.parent.parent.world.character.hearts += dialogData[path + 'F'] ? 1 : 0;
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     } else {
