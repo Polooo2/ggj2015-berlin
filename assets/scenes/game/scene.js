@@ -1,33 +1,32 @@
 (function(scene) {
   
   var Lyria = scene.modules.Lyria;
+  var myScroll;
+  var floor = 0;
 
   scene.on('active', function() {
-    console.log('active: ' + scene.name);
-  });
-
-  scene.on('achievement', function() {
-    Lyria.AchievementManager.show('switchScene');
-  });
-  
-  scene.bindEvents({
-    '#btnSwitch': {
-      'click': function(event) {
-        scene.trigger('achievement');
-        scene.parent.show('scene2');
-      }
+    if (!myScroll) {
+      var wrapper = document.getElementById('wrapper');
+      myScroll = new IScroll(wrapper, {
+        'startY': -2304
+      });
     }
   });
 
-  scene.expose({
-    test: "Hallo",
-    title: scene.t('title', {
-      name: scene.name
-    })
+  scene.on('achievement', function() {
   });
 
-  console.log(scene);
-  console.log(scene.game);
-  scene.log('yeeha!');
+  scene.expose({
+  });
+
+  function floorUp() {
+    floor++;
+    myScroll.scrollBy(0, 768, 2000);
+    if (myScroll.y > -768) {
+      // jump four tiles down
+      myScroll.scrollBy(0, -768 * 4);
+    }
+
+  }
 
 })(this);
