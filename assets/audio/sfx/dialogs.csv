@@ -65,28 +65,28 @@ DP22,Woof!,,
 DP23,Anf anf,,
 DP21S,Between elbow and... that's outrageous! I'm in!,,aroused
 DP22F,Inside the ear? At the same TIME?!,,repulse
-DP23S,Just do it then!,,
+DP23S,"Let's do that, now!",,aroused
 ,,,
 DD-1,Bark Bark,,
-DD0,"Ooh, what a nice doggy!",,excited
+DD0,Ah! It is nice to meet you Mr. President!,,excited
 DD1,Bark!,,
 DD2,Woof!,,
 DD3,Anf anf,,
-DD1S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,excited
+DD1S,,,excited
 DD20,W-what are you talking about!?! Protect me Grandma!,,excited
-DD3S,You defeated Modorglogong? All by yourself?!,,excited
+DD30,You defeated Modorglogong? All by yourself?!,,excited
 DD21,Bark!,,
 DD22,Woof!,,
 DD23,Anf anf,,
 DD21F,I... that is... I would never...,,blush
-DD22S,Ahahahah! His shoes! ahahahah!,,excited
-DD23S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
+DD22F,I-in front of... ?! *Demolitos passes out*,,excited
+DD23S,,,
+DD21,Bark!,,
+DD22,Woof!,,
+DD23,Anf anf,,
+DD21S,Ahahahah! With his shoes! ahahahah!,,excited
+DD22S,Behind hiss beard? Protect me Grandma! ,,blush
+DD23S,Inside her sandals? that's Genius!,,excited
 ,,,
 AT-1,"Sacré bleu, a walking <i>Table</i>!",,
 AT0,... ,,

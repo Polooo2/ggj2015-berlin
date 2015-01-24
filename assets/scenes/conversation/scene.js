@@ -37,7 +37,7 @@
 
     // set character data
     $('[data-name*="text-character"] > .name', scene.$elements).text(world.character.name);
-    $('[data-name*="text-character"] > [data-name*="text-icon"]', scene.$elements).attr('data-name', world.character.name.toLowerCase());
+    $('[data-name*="text-character"] > .icon', scene.$elements).attr('data-name', world.character.name.toLowerCase());
 
     // set npc data
     $('[data-name*="text-npc"] > .name', scene.$elements).text(npcName);
