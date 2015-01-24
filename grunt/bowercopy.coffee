@@ -16,4 +16,5 @@ module.exports =
       'build/debug/js/almond_udefine.js': 'udefine/dist/udefine.js'
       'build/debug/js/iscroll.js': 'iscroll/build/iscroll.js'
       'build/debug/css/normalize.css': 'normalize-css/normalize.css'
+      'build/debug/css/animate.css': 'animate.css/animate.css'
       'build/debug/css/lyria.css': 'lyria/dist/css/lyria.css'
