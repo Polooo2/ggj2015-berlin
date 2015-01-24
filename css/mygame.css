@@ -1,5 +1,5 @@
 
-/* line 109 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 121 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 
 /* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
 
@@ -105,19 +105,15 @@
 #character .background {
   width: 100%;
   height: 100%;
-}
-
-/* line 6 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
-#character .background[data-active=none] {
   background-image: url("../assets/images/character/background.png");
 }
 
-/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
-#character .background[data-active=char1] {
-  background-image: url("../assets/images/character/background-active-char2.png");
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .background.overlay {
+  background-image: url("../assets/images/character/background-overlay.png");
 }
 
-/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .selection {
   background: url("../assets/images/character/select.png");
   width: 483px;
@@ -127,7 +123,7 @@
   left: 270.5px;
 }
 
-/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 19 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .speech-bubble-container {
   position: absolute;
   width: 250px;
@@ -136,7 +132,7 @@
   font-size: 1.3rem;
 }
 
-/* line 27 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 26 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .speech-bubble-container .bubble {
   position: absolute;
   -webkit-border-radius: 50% 50%;
@@ -147,7 +143,7 @@
   height: 30px;
 }
 
-/* line 35 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 34 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .speech-bubble-container .bubble1 {
   left: 50px;
   bottom: 35px;
@@ -155,13 +151,13 @@
   height: 45px;
 }
 
-/* line 41 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 40 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .speech-bubble-container .bubble2 {
   left: 20px;
   bottom: 85px;
 }
 
-/* line 45 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 44 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .speech-bubble-container .bubble3 {
   left: 20px;
   top: 20px;
@@ -171,7 +167,7 @@
   padding: 15px;
 }
 
-/* line 53 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 52 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .character {
   position: absolute;
   width: 200px;
@@ -183,7 +179,7 @@
   background-repeat: no-repeat;
 }
 
-/* line 61 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 60 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .character .name {
   text-shadow: 0px 0px 4px #fff;
   white-space: nowrap;
@@ -192,65 +188,632 @@
   top: -40px;
 }
 
-/* line 68 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
-#character .character.character0,
-#character .character.character2,
-#character .character.character3 {
-  pointer-events: none;
-}
-
-/* line 71 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 67 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .character.character0 {
-  width: 235px;
-  height: 445px;
-  left: 50px;
-  top: 200px;
-  background-image: url("../assets/images/char1.png");
+  width: 348px;
+  height: 415px;
+  left: 5px;
+  top: 190px;
+  background-image: url("../assets/images/character/meryl.png");
 }
 
-/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 74 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character0.active {
+  width: 390px;
+  height: 458px;
+  background-image: url("../assets/images/character/meryl-selected.png");
+}
+
+/* line 79 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .character.character1 {
-  left: 400px;
-  background-image: url("../assets/images/armoise.png");
+  width: 358px;
+  height: 414px;
+  left: 330px;
+  top: 230px;
+  background-image: url("../assets/images/character/armoise.png");
 }
 
-/* line 82 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 86 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character1.active {
+  width: 412px;
+  height: 427px;
+  top: 220px;
+  background-image: url("../assets/images/character/armoise-selected.png");
+}
+
+/* line 92 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .character.character2 {
-  top: 225px;
-  left: 650px;
-  background-image: url("../assets/images/char3.png");
+  top: 265px;
+  right: 20px;
+  width: 285px;
+  height: 314px;
+  background-image: url("../assets/images/character/bark.png");
 }
 
-/* line 87 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
-#character .character.character3 {
-  left: 800px;
-  width: 110px;
-  height: 112px;
-  top: 500px;
-  background-image: url("../assets/images/char4.png");
+/* line 99 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+#character .character.character2.active {
+  width: 324px;
+  height: 417px;
+  background-image: url("../assets/images/character/bark-selected.png");
 }
 
-/* line 94 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 105 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .continue {
   position: absolute;
   cursor: pointer;
   width: 226px;
   height: 81px;
   text-align: center;
-  bottom: 20px;
+  bottom: 30px;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
   left: 399px;
   background-image: url("../assets/images/character/start.png");
 }
 
-/* line 104 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 116 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .continue:hover {
   background-image: url("../assets/images/character/start_hover.png");
 }
 
-/* line 107 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
+/* line 119 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\character.styl */
 #character .continue.disabled {
   pointer-events: none;
   background-image: url("../assets/images/character/start_inactive.png");
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 139 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 139 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 139 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .background {
+  background-image: url("../assets/images/conversation/background.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .portrait {
+  width: 500px;
+  height: 500px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  left: 48px;
+  top: 20px;
+  background-repeat: no-repeat;
+}
+
+/* line 18 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .portrait[data-name=phostnack] {
+  background-image: url("../assets/images/conversation/portrait_npc_phostnack.png");
+}
+
+/* line 23 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+
+/* line 24 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc,
+#conversation .text-character {
+  position: absolute;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+/* line 29 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc .name,
+#conversation .text-character .name {
+  position: absolute;
+  color: #f3c7c7;
+  font-size: 1.4rem;
+}
+
+/* line 35 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc .text,
+#conversation .text-character .text {
+  position: absolute;
+  color: #000;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 45 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc {
+  background-image: url("../assets/images/conversation/bubble_npc.png");
+  width: 528px;
+  height: 373px;
+  right: 50px;
+  top: 20px;
+}
+
+/* line 52 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc .name {
+  right: 50px;
+  top: 12px;
+}
+
+/* line 57 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-npc .text {
+  margin-top: 75px;
+  margin-left: 15px;
+  width: 500px;
+  height: 225px;
+}
+
+/* line 65 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character {
+  bottom: 0px;
+  background-image: url("../assets/images/conversation/bubble_actor.png");
+  width: 1024px;
+  height: 397px;
+}
+
+/* line 71 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .name {
+  position: absolute;
+  right: 295px;
+  bottom: 258px;
+}
+
+/* line 77 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .text {
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 925px;
+  height: 130px;
+}
+
+/* line 84 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .icon {
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  right: 105px;
+  top: 7px;
+}
+
+/* line 91 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .icon[data-name=armoise] {
+  background-image: url("../assets/images/conversation/icon_armoise.png");
+}
+
+/* line 94 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .icon[data-name=bark] {
+  background-image: url("../assets/images/conversation/icon_bark.png");
+}
+
+/* line 97 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .text-character .icon[data-name=meryl] {
+  background-image: url("../assets/images/conversation/icon_meryl.png");
+}
+
+/* line 103 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answers {
+  position: absolute;
+  bottom: 80px;
+}
+
+/* line 108 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answer {
+  background-color: #b52d74;
+  border: 8px solid #740342;
+  color: #f3c7c7;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 1.2rem;
+  width: 208px;
+  height: 48px;
+}
+
+/* line 123 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answer:hover {
+  background-color: #b30025;
+}
+
+/* line 127 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answer:nth-child(1) {
+  left: 152px;
+}
+
+/* line 131 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answer:nth-child(2) {
+  left: 408px;
+}
+
+/* line 135 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\conversation.styl */
+#conversation .answer:nth-child(3) {
+  left: 664px;
+}
+
+
+/* line 286 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 128 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\border.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 4 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
+
+/* line 128 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 7 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 25 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\image.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 66 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 78 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
+
+/* line 128 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 577 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\shadow-stroke.styl */
+
+/* line 541 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 260 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\size.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 2 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
+
+/* line 1 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\lyria\asset.styl */
+
+/* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game {
+  background: #000;
+}
+
+/* line 8 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors {
+  float: left;
+  width: 374px;
+}
+
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #wrapper {
+  height: 768px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 17 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 24 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 30 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller li {
+  height: 768px;
+}
+
+/* line 33 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller li.inbetween {
+  background-image: url("../assets/images/game/inbetween.png");
+}
+
+/* line 37 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller li.floor1 {
+  background-image: url("../assets/images/game/floor1.png");
+}
+
+/* line 41 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .floors #scroller li.floor2 {
+  background-image: url("../assets/images/game/floor2.png");
+}
+
+/* line 46 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .elevator {
+  float: left;
+  width: 650px;
+  height: 100%;
+  background-image: url("../assets/images/game/elevator.png");
+}
+
+/* line 53 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .elevator-door {
+  position: absolute;
+  height: 100%;
+  background-image: url("../assets/images/game/door.png");
+  left: 374px;
+  width: 58px;
+}
+
+/* line 61 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .bubble {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  width: 309px;
+  height: 215px;
+  background-image: url("../assets/images/game/bubble.png");
+}
+
+/* line 69 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .bubble .text {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* line 74 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character {
+  position: absolute;
+  bottom: 22px;
+  left: -300px;
+  -webkit-transition: -webkit-transform 3000ms;
+  -moz-transition: -moz-transform 3000ms;
+  -o-transition: -o-transform 3000ms;
+  -ms-transition: -ms-transform 3000ms;
+  transition: transform 3000ms;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+/* line 81 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.armoise {
+  background-image: url("../assets/images/armoise.png");
+  width: 287px;
+  height: 456px;
+}
+
+/* line 87 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.meryl {
+  background-image: url("../assets/images/meryl.png");
+  width: 250px;
+  height: 456px;
+}
+
+/* line 93 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.bark {
+  background-image: url("../assets/images/bark.png");
+  width: 137px;
+  height: 156px;
+  margin-left: 100px;
+}
+
+/* line 100 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.npc0 {
+  background-image: url("../assets/images/phostnack.png");
+  width: 280px;
+  height: 337px;
+}
+
+/* line 105 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.npc1 {
+  background-image: url("../assets/images/armoise.png");
+  width: 287px;
+  height: 456px;
+}
+
+/* line 110 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.npc2 {
+  background-image: url("../assets/images/phostnack.png");
+  width: 280px;
+  height: 337px;
+}
+
+/* line 116 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.right-side {
+  -webkit-transform: translateX(980px);
+  -moz-transform: translateX(980px);
+  -o-transform: translateX(980px);
+  -ms-transform: translateX(980px);
+  transform: translateX(980px);
+}
+
+/* line 120 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.left-side {
+  -webkit-transform: translateX(730px);
+  -moz-transform: translateX(730px);
+  -o-transform: translateX(730px);
+  -ms-transform: translateX(730px);
+  transform: translateX(730px);
+}
+
+/* line 124 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\game.styl */
+#game .character.out-side {
+  -webkit-transform: translateX(-730px);
+  -moz-transform: translateX(-730px);
+  -o-transform: translateX(-730px);
+  -ms-transform: translateX(-730px);
+  transform: translateX(-730px);
 }
 
 
@@ -601,7 +1164,7 @@ body {
 
 /* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\rupture\rupture\index.styl */
 
-/* line 234 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
+/* line 32 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
 
 /* line 10 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\index.styl */
 
@@ -621,7 +1184,7 @@ body {
 
 /* line 90 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\flex.styl */
 
-/* line 234 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
+/* line 32 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
 
 /* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\gradients.styl */
 
@@ -649,7 +1212,7 @@ body {
 
 /* line 5 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\reset.styl */
 
-/* line 234 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
+/* line 32 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
 
 /* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\node_modules\grunt-contrib-stylus\node_modules\nib\lib\nib\text\index.styl */
 
@@ -707,301 +1270,37 @@ body {
   height: 100%;
 }
 
-/* line 12 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+/* line 11 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#outro .background.success {
+  background-image: url("../assets/images/outro/background-success.png");
+}
 
-/* line 13 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .background {
-  background-image: url("../assets/images/conversation/background.png");
+/* line 15 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+
+/* line 16 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#intro .background {
+  background-image: url("../assets/images/intro/background.png");
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
-/* line 20 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .portrait {
-  width: 500px;
-  height: 500px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  background-repeat: no-repeat;
+/* line 21 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#intro .start {
+  height: 78%;
 }
+
+/* line 24 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
+#intro .credits {
+  height: 22%;
+}
+
+/* line 28 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
 
 /* line 29 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .portrait[data-name=phostnack] {
-  background-image: url("../assets/images/conversation/portrait_npc_phostnack.png");
-}
-
-/* line 34 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-
-/* line 35 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc,
-#conversation .text-character {
-  position: absolute;
-  text-align: center;
-  background-repeat: no-repeat;
-}
-
-/* line 40 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc .name,
-#conversation .text-character .name {
-  position: absolute;
-  color: #f3c7c7;
-  font-size: 1.4rem;
-}
-
-/* line 46 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc .text,
-#conversation .text-character .text {
-  position: absolute;
-  color: #000;
-  font-size: 1.3rem;
+#credits .background {
+  background-image: url("../assets/images/credits/background.png");
   width: 100%;
   height: 100%;
-}
-
-/* line 56 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc {
-  background-image: url("../assets/images/conversation/bubble_npc.png");
-  width: 528px;
-  height: 373px;
-  right: 50px;
-  top: 20px;
-}
-
-/* line 63 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc .name {
-  right: 50px;
-  top: 12px;
-}
-
-/* line 68 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-npc .text {
-  margin-top: 75px;
-  margin-left: 15px;
-  width: 500px;
-  height: 225px;
-}
-
-/* line 76 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-character {
-  bottom: 0px;
-  background-image: url("../assets/images/conversation/bubble_actor.png");
-  width: 1024px;
-  height: 397px;
-}
-
-/* line 82 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-character .name {
-  position: absolute;
-  right: 295px;
-  bottom: 258px;
-}
-
-/* line 88 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-character .text {
-  margin-top: 200px;
-  margin-left: 50px;
-  width: 925px;
-  height: 130px;
-}
-
-/* line 95 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-character .icon {
-  position: absolute;
-  width: 174px;
-  height: 174px;
-  right: 105px;
-  top: 7px;
-}
-
-/* line 102 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .text-character .icon[data-name=armoise] {
-  background-image: url("../assets/images/conversation/icon_armoise.png");
-}
-
-/* line 108 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answers {
-  position: absolute;
-  bottom: 80px;
-}
-
-/* line 113 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answer {
-  background-color: #b52d74;
-  border: 8px solid #740342;
-  color: #f3c7c7;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-  position: absolute;
-  text-align: center;
-  padding-top: 12px;
-  font-size: 1.2rem;
-  width: 208px;
-  height: 48px;
-}
-
-/* line 128 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answer:hover {
-  background-color: #b30025;
-}
-
-/* line 132 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answer:nth-child(1) {
-  left: 152px;
-}
-
-/* line 136 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answer:nth-child(2) {
-  left: 408px;
-}
-
-/* line 140 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#conversation .answer:nth-child(3) {
-  left: 664px;
-}
-
-/* line 149 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-
-/* line 150 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors {
-  float: left;
-  width: 374px;
-}
-
-/* line 153 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #wrapper {
-  height: 768px;
-  z-index: 1;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-/* line 160 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller {
-  z-index: 1;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  width: 100%;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* line 168 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-/* line 174 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller li {
-  height: 768px;
-}
-
-/* line 177 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller li.inbetween {
-  background-image: url("../assets/images/game/inbetween.png");
-}
-
-/* line 181 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller li.floor1 {
-  background-image: url("../assets/images/game/floor1.png");
-}
-
-/* line 185 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .floors #scroller li.floor2 {
-  background-image: url("../assets/images/game/floor2.png");
-}
-
-/* line 190 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .elevator {
-  float: left;
-  width: 650px;
-  height: 100%;
-  background-image: url("../assets/images/game/elevator.png");
-}
-
-/* line 196 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character {
-  position: absolute;
-  bottom: 30px;
-  left: -300px;
-  -webkit-transition: -webkit-transform 3000ms;
-  -moz-transition: -moz-transform 3000ms;
-  -o-transition: -o-transform 3000ms;
-  -ms-transition: -ms-transform 3000ms;
-  transition: transform 3000ms;
-}
-
-/* line 202 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.hero1 {
-  background-image: url("../assets/images/armoise.png");
-  width: 287px;
-  height: 456px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-}
-
-/* line 209 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.npc0 {
-  background-image: url("../assets/images/phostnack.png");
-  width: 280px;
-  height: 337px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-}
-
-/* line 215 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.npc1 {
-  background-image: url("../assets/images/armoise.png");
-  width: 287px;
-  height: 456px;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-}
-
-/* line 222 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.right-side {
-  -webkit-transform: translateX(980px);
-  -moz-transform: translateX(980px);
-  -o-transform: translateX(980px);
-  -ms-transform: translateX(980px);
-  transform: translateX(980px);
-}
-
-/* line 226 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.left-side {
-  -webkit-transform: translateX(730px);
-  -moz-transform: translateX(730px);
-  -o-transform: translateX(730px);
-  -ms-transform: translateX(730px);
-  transform: translateX(730px);
-}
-
-/* line 230 : C:\Users\Johannes Stein\Development\Workspaces\opensource\ggj2015-berlin\stylus\app\scenes.styl */
-#game .character.out-side {
-  -webkit-transform: translateX(-730px);
-  -moz-transform: translateX(-730px);
-  -o-transform: translateX(-730px);
-  -ms-transform: translateX(-730px);
-  transform: translateX(-730px);
 }
 
 
@@ -1111,7 +1410,7 @@ body {
   width: 1024px;
   height: 768px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #000;
   margin-left: -512px;
   margin-top: -384px;
   left: 50%;
