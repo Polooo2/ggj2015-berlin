@@ -3,7 +3,7 @@
   var Lyria = scene.modules.Lyria;
   var world = scene.parent.parent.world;
 
-  var characters = ['Character 1', 'Armoise', 'Character 3', 'Character 4'];
+  var characters = ['Meryl', 'Armoise', 'Bark'];
 
   // TODO: Add actual character names here
   scene.expose({
@@ -43,7 +43,7 @@
       return;
     }
 
-    world.character = selectedCharacter;
+    world.character.name = selectedCharacter;
     scene.parent.show('game');
   });
 

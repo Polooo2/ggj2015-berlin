@@ -1,0 +1,90 @@
+
+$seperator = 650px;
+
+
+#game {
+  .floors {
+    float: left;
+    width: (1024px - $seperator);
+    #wrapper {
+      height: 768px;
+      z-index: 1;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    #scroller {
+      z-index: 1;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      width: 100%;
+      transform: translateZ(0);
+      -webkit-touch-callout: none;
+      user-select: none;
+    }
+    #scroller ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    #scroller li {
+      height:768px;
+
+      &.inbetween {
+        background-image: url(asset('game/inbetween.png'));
+      }
+
+      &.floor1 {
+        background-image: url(asset('game/floor1.png'));
+      }
+
+      &.floor2 {
+        background-image: url(asset('game/floor2.png'));
+      }
+    }
+  }
+  .elevator {
+    float: left;
+    width: $seperator;
+    height: 100%;
+    background-image: url(asset('game/elevator.png'))
+  }
+  .character {
+    position: absolute;
+    bottom: 30px;
+    left: -300px;
+    transition: transform 3000ms;
+
+    &.hero1 {
+      background-image: url(asset('armoise.png'));
+      width: 287px;
+      height: 456px;
+      background-size: contain;
+    }
+
+    &.npc0 {
+      background-image: url(asset('phostnack.png'))
+      width: 280px;
+      height: 337px;
+      background-size: contain;
+    }
+    &.npc1 {
+      background-image: url(asset('armoise.png'));
+      width: 287px;
+      height: 456px;
+      background-size: contain;
+    }
+
+    &.right-side {
+      transform: translateX(980px)
+    }
+
+    &.left-side {
+      transform: translateX(730px)
+    }
+
+    &.out-side {
+      transform: translateX(-730px)
+    }
+  }
+}

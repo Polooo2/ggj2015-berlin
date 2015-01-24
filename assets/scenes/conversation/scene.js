@@ -1,23 +1,48 @@
-(function (scene) {
+(function(scene) {
 
   var Lyria = scene.modules.Lyria;
   var path = '';
   var final = false;
   var $conversationArea;
   // TODO
-  var dialogData = scene.parent.parent.world.data.P;
+  var dialogData;
+  var world = scene.parent.parent.world;
 
   var resetCharText = function() {
-    $('[data-name*="text-character"] > .text').remove();
-    $('[data-name*="text-character"]').append('<div class="text"></div>');
+    $('[data-name*="text-character"] > .text', scene.$elements).remove();
+    $('[data-name*="text-character"]', scene.$elements).append('<div class="text"></div>');
   };
 
   var resetNPCText = function() {
-    $('[data-name*="text-npc"] > .text').remove();
-    $('[data-name*="text-npc"]').append('<div class="text"></div>');
+    $('[data-name*="text-npc"] > .text', scene.$elements).remove();
+    $('[data-name*="text-npc"]', scene.$elements).append('<div class="text"></div>');
   };
 
-  scene.on('active', function () {
+  scene.on('active', function(npcNumber) {
+    var npcName;
+    switch (npcNumber) {
+      case 'npc0':
+        dialogData = world.data.D;
+        npcName = 'Demolitos';
+        break;
+      case 'npc1':
+        dialogData = world.data.T;
+        npcName = 'Table';
+        break;
+      case 'npc2':
+        dialogData = world.data.P;
+        npcName = 'Phostnack';
+        break;
+    }
+
+    // set character data
+    $('[data-name*="text-character"] > .name', scene.$elements).text(world.character.name);
+    $('[data-name*="text-character"] > [data-name*="text-icon"]', scene.$elements).attr('data-name', world.character.name.toLowerCase());
+
+    // set npc data
+    $('[data-name*="text-npc"] > .name', scene.$elements).text(npcName);
+    $('.portrait', scene.$elements).attr('data-name', npcName.toLowerCase());
+
     if (!$conversationArea) {
       $conversationArea = $('[data-name*="conversation"]', scene.$element)
     }
@@ -29,8 +54,8 @@
 
     $('[data-name*="text-character"] > .text', $conversationArea).typed({
       strings: [dialogData['-1']],
-      callback: function () {
-        $('[data-name~=text-npc]').fadeIn(250, function () {
+      callback: function() {
+        $('[data-name~=text-npc]').fadeIn(250, function() {
           $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
           setText();
         });
@@ -43,10 +68,10 @@
    */
   scene.bindEvents({
     '[data-behavior*="answer"]': {
-      'click': function (event) {
+      'click': function(event) {
         var self = this;
 
-        $('[data-name~=text-npc]').fadeOut(100, function () {
+        $('[data-name~=text-npc]').fadeOut(100, function() {
           $('[data-name~=text-npc] > .text').empty();
           resetCharText();
 
@@ -56,8 +81,8 @@
           $().typed('reset');
           $('[data-name*="text-character"] > .text', $conversationArea).typed({
             strings: [dialogData[path]],
-            callback: function () {
-              $('[data-name~=text-npc]').fadeIn(250, function () {
+            callback: function() {
+              $('[data-name~=text-npc]').fadeIn(250, function() {
                 setText();
               });
             }
@@ -68,7 +93,7 @@
       }
     },
     '[data-name*="conversation"]': {
-      'click': function (event) {
+      'click': function(event) {
         if (final) {
           console.log(scene.parent.parent.world.character.hearts);
 

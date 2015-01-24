@@ -8,7 +8,6 @@
 
   scene.on('active', function(afterConversation) {
     if (!myScroll) {
-      console.log('init myscroll')
       world.audio.stop('character-sel');
       world.audio.play('elevator', -1);
       var wrapper = document.getElementById('wrapper');
