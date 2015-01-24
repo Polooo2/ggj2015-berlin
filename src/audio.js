@@ -30,8 +30,9 @@ define(['require'], function(require) {
     },
     play: play,
     stop: function(id) {
-      audio.audioFiles[id].options.loop = 0;
-      audio.stop(id);
+      if (audio) {
+        audio.stop(id);
+      }
     }
   };
 

@@ -37,26 +37,23 @@
   scene.expose({});
 
   function floorUp(callback) {
+    var cbFn = function() {
+      myScroll.off('scrollEnd', cbFn);
+      callback();
+    };
     floor++;
-    console.log('moving to page ' + myScroll.currentPage.pageY)
-    myScroll.prev();
     if (myScroll.currentPage.pageY === 0) {
       // jump four tiles down
       myScroll.goToPage(0, 4, 0);
-      console.log('jumping')
       if (callback) {
-        myScroll.on('scrollEnd', function() {
-          callback();
-        });
+        myScroll.on('scrollEnd', cbFn);
       }
     } else {
       if (callback) {
-        myScroll.on('scrollEnd', function() {
-          callback();
-        });
+        myScroll.on('scrollEnd', cbFn);
       }
     }
-
+    myScroll.prev();
   }
 
   /**
@@ -77,7 +74,6 @@
       $character.on('transitionend', function() {
         setTimeout(function() {
           floorUp(function() {
-
             if (inbetween) {
               if (callback) {
                 callback();
