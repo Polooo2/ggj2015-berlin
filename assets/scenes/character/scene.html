@@ -1,17 +1,9 @@
-<div class="background" data-active="none" data-behavior="unselect"></div>
+<div class="background" data-behavior="unselect"></div>
 
 <div class="selection"></div>
 
 {{#each character}}
-    <div class="character character{{@index}}" data-behavior="select-character{{@index}}">
-        <div class="name">{{.}}</div>
-    </div>
+    <div class="character character{{@index}}" data-behavior="select-character{{@index}}"></div>
 {{/each}}
-
-<div class="speech-bubble-container hidden">
-    <div class="bubble speech bubble3">L'amour</div>
-    <div class="bubble bubble2"></div>
-    <div class="bubble bubble1"></div>
-</div>
 
 <div class="button continue disabled" data-behavior="continue"></div>

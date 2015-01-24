@@ -16,24 +16,20 @@
       scene.bindEvent('[data-behavior~=select-character' + i + ']', function(e) {
         selectedCharacter = characters[i];
         $('.continue', scene.$element).removeClass('disabled');
-        var $target = $(e.currentTarget);
 
-        $('.background', scene.$element).attr('data-active', 'char' + i);
+        $('.background', scene.$element).addClass('overlay');
 
-        var $speechContainer = $('.speech-bubble-container', scene.$element);
-        $speechContainer.removeClass('hidden');
-
-        $speechContainer.css('left', $target.offset().left - $('.viewport').offset().left + ($target.width() / 4) + 'px');
-        $speechContainer.css('top', ($target.offset().top - $('.viewport').offset().top - 100) + 'px');
+        $('.character', scene.$element).removeClass('active');
+        $(this).addClass('active');
       });
     })(i);
   }
 
   scene.bindEvent('[data-behavior~=unselect]', function() {
-    $('.background', scene.$element).attr('data-active', 'none');
+    $('.background', scene.$element).removeClass('overlay');
     selectedCharacter = '';
     $('.continue', scene.$element).addClass('disabled');
-    $('.speech-bubble-container', scene.$element).addClass('hidden');
+    $('.character', scene.$element).removeClass('active');
   });
 
   scene.bindEvent('[data-behavior~=continue]', function() {

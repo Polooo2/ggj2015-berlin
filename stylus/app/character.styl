@@ -3,11 +3,10 @@
     width: 100%
     height: 100%
 
-    &[data-active=none]
-      background-image: url(asset('character/background.png'))
+    background-image: url(asset('character/background.png'))
 
-    &[data-active=char1]
-      background-image: url(asset('character/background-active-char2.png'))
+    &.overlay
+      background-image: url(asset('character/background-overlay.png'))
 
   .selection
     background: url(asset('character/select.png'))
@@ -66,27 +65,42 @@
       top: -40px
 
     &.character0
-      width: 235px
-      height: 445px
-      left: 50px
-      top: 200px
-      background-image: url(asset('meryl.png'))
+      width: 348px
+      height: 415px
+      left: 5px
+      top: 190px
+      background-image: url(asset('character/meryl.png'))
+
+      &.active
+        width: 390px;
+        height: 458px;
+        background-image: url(asset('character/meryl-selected.png'))
 
     &.character1
-      left: 400px
-      background-image: url(asset('armoise.png'))
+      width: 358px;
+      height: 414px;
+      left: 330px
+      top: 230px;
+      background-image: url(asset('character/armoise.png'))
+
+      &.active
+        width: 412px;
+        height: 427px;
+        top: 220px;
+        background-image: url(asset('character/armoise-selected.png'))
 
     &.character2
-      top: 225px
-      left: 650px
-      background-image: url(asset('bark.png'))
+      top: 265px
+      right: 20px
+      width: 285px
+      height: 314px
+      background-image: url(asset('character/bark.png'))
 
-    &.character3
-      left: 800px
-      width: 110px
-      height: 112px
-      top: 500px
-      background-image: url(asset('char4.png'))
+      &.active {
+        width: 324px;
+        height: 417px;
+        background-image: url(asset('character/bark-selected.png'))
+      }
 
   .continue
     position: absolute
