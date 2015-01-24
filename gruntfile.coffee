@@ -1,6 +1,6 @@
 module.exports = (grunt) ->
   require('time-grunt')(grunt)
-
+  endOfLine = require('os').EOL
   require('load-grunt-config') grunt,
     jitGrunt:
       staticMappings:
@@ -37,7 +37,7 @@ module.exports = (grunt) ->
 
   `grunt.registerTask('csvToJson', 'move dialogs from csv to json', function() {
       var csvFile = grunt.file.read('dialogs.csv');
-      var csvLines = csvFile.split('\n');
+      var csvLines = csvFile.split(endOfLine);
       var currentFile = {};
       var currentName = '';
       csvLines.forEach(function(line) {
