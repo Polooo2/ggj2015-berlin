@@ -28,10 +28,17 @@
           // Add a few millis in between
 
           scene.$element.addClass('shake animated');
-          setTimeout(function() {
-            scene.$element.removeClass('shake animated');
-            scene.parent.show('conversation', 'npc' + level);
-          }, 1850);
+
+          $('.bubble > .text').remove();
+          $('.bubble').append('<div class="text"></div>');
+
+          $('.bubble', scene.$element).fadeIn(100, function() {
+            setTimeout(function() {
+              $('.bubble > .text').typed({strings: ['?!']});
+              scene.$element.removeClass('shake animated');
+              scene.parent.show('conversation', 'npc' + level);
+            }, 2250);
+          });
         });
       });
     }
@@ -56,6 +63,10 @@
 
               world.audio.stop('elevator-running');
               world.audio.play('elevator-stop');
+
+              $('.bubble', scene.$element).fadeIn(100, function() {
+
+              });
 
               // Add a few millis in between
               setTimeout(function() {
