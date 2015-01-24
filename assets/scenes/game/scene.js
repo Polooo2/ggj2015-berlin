@@ -23,9 +23,12 @@
       startCharacterMoving('hero1', 'right', false, function() {
         startCharacterMoving('npc' + level, 'left', true, function() {
           // Add a few millis in between
+
+          scene.$element.addClass('shake animated');
           setTimeout(function() {
+            scene.$element.removeClass('shake animated');
             scene.parent.show('conversation', 'npc' + level);
-          }, 850);
+          }, 1850);
         });
       });
     }
@@ -43,10 +46,13 @@
           } else {
             // move new npc in
             startCharacterMoving('npc' + level, 'left', true, function() {
+
+              scene.$element.addClass('shake animated');
               // Add a few millis in between
               setTimeout(function() {
+                scene.$element.removeClass('shake animated');
                 scene.parent.show('conversation', 'npc' + level);
-              }, 850);
+              }, 1850);
             });
           }
         });
