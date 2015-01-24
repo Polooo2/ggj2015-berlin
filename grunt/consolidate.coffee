@@ -6,7 +6,7 @@ module.exports =
       local:
         livereload: true,
         mainModule: '<%= package.name %>',
-        title: '<%= package.name %> - Development build',
+        title: 'Flirtevator - Development build',
     files:
       'build/debug/index.html': 'template/index.html'
   production:
@@ -14,6 +14,6 @@ module.exports =
       local:
         livereload: false,
         mainModule: '<%= package.name %>'
-        title: '<%= package.name %>'
+        title: 'Flirtevator'
     files:
       'build/production/index.html': 'template/index.html'

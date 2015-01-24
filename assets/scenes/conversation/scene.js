@@ -13,7 +13,7 @@
     // reset vars
     path = '';
     final = false;
-    $('[data-name*="text-character"]', $conversationArea).text(dialogData['-1']);
+    $('[data-name*="text-character"]', $conversationArea).html(dialogData['-1']);
     $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
     setText();
   });
@@ -27,7 +27,7 @@
         // get type
         var type = $(this).attr('data-type');
         path += type;
-        $('[data-name*="text-character"]', $conversationArea).text(dialogData[path]);
+        $('[data-name*="text-character"]', $conversationArea).html(dialogData[path]);
         setText();
         return false;
       }
@@ -61,7 +61,7 @@
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     }
-    $('[data-name*="text-npc"]', $conversationArea).text(text);
+    $('[data-name*="text-npc"]', $conversationArea).html(text);
   }
 
   scene.expose();
