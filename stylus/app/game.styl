@@ -64,22 +64,21 @@ $seperator = 650px;
   }
   .character {
     position: absolute;
-    bottom: 30px;
+    bottom: 22px;
     left: -300px;
     transition: transform 3000ms;
+    background-size: contain;
 
     &.armoise {
       background-image: url(asset('armoise.png'));
       width: 287px;
       height: 456px;
-      background-size: contain;
     }
 
     &.meryl {
       background-image: url(asset('meryl.png'));
       width: 250px;
       height: 456px;
-      background-size: contain;
     }
 
     &.bark {
@@ -87,20 +86,22 @@ $seperator = 650px;
       width: 137px;
       height: 156px;
       margin-left: 100px;
-      background-size: contain;
     }
 
     &.npc0 {
       background-image: url(asset('phostnack.png'))
       width: 280px;
       height: 337px;
-      background-size: contain;
     }
     &.npc1 {
       background-image: url(asset('armoise.png'));
       width: 287px;
       height: 456px;
-      background-size: contain;
+    }
+    &.npc2 {
+      background-image: url(asset('phostnack.png'));
+      width: 280px;
+      height: 337px;
     }
 
     &.right-side {

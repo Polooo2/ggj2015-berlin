@@ -63,7 +63,7 @@
         // move old npc out
         startCharacterMoving('npc' + level, 'out', true, function() {
           level++;
-          if (level === 2) {
+          if (level === 3) {
             // outro
             scene.parent.show('outro');
           } else {
