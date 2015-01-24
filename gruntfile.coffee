@@ -23,7 +23,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'production', 'Production build', ['development', 'copy:production', 'uglify',
                                                         'stylus:production', 'consolidate:production']
   grunt.registerTask 'pack', 'Packs project', ['production', 'compress']
-  grunt.registerTask 'deploy', 'Builds project in production mode and deploys to Github Pages', ['clean:gh_pages', 'production', 'preReleaseBranch', 'releaseBranch']
+  grunt.registerTask 'deploy', 'Builds project in production mode and deploys to Github Pages', ['clean:gh_pages', 'production', 'gh-pages']
 
   grunt.registerTask 'build', 'Builds the default project', ['development']
 
