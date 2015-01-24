@@ -57,3 +57,4 @@ build/**
 # Generated files #
 ###################
 *.map
+assets/data/dialog/*.json
