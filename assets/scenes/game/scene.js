@@ -1,10 +1,13 @@
 (function(scene) {
 
   var Lyria = scene.modules.Lyria;
+  var world = scene.parent.parent.world;
   var myScroll;
   var floor = 0;
 
   scene.on('active', function(moveUp) {
+    world.audio.stop('character-sel');
+    world.audio.play('elevator');
     if (!myScroll) {
       var wrapper = document.getElementById('wrapper');
       myScroll = new IScroll(wrapper, {
@@ -33,12 +36,25 @@
 
   scene.expose({});
 
-  function floorUp() {
+  function floorUp(callback) {
     floor++;
+    console.log('moving to page ' + myScroll.currentPage.pageY)
     myScroll.prev();
     if (myScroll.currentPage.pageY === 0) {
       // jump four tiles down
       myScroll.goToPage(0, 4, 0);
+      console.log('jumping')
+      if (callback) {
+        myScroll.on('scrollEnd', function() {
+          callback();
+        });
+      }
+    } else {
+      if (callback) {
+        myScroll.on('scrollEnd', function() {
+          callback();
+        });
+      }
     }
 
   }
@@ -60,9 +76,7 @@
       // This should be rather onTransitionEnd, but I'm not sure about its iOS support
       $character.on('transitionend', function() {
         setTimeout(function() {
-          floorUp();
-
-          myScroll.on('scrollEnd', function() {
+          floorUp(function() {
 
             if (inbetween) {
               if (callback) {
@@ -70,12 +84,7 @@
               }
             } else {
               setTimeout(function() {
-                floorUp();
-                myScroll.on('scrollEnd', function() {
-                  if (callback) {
-                    callback();
-                  }
-                });
+                floorUp(callback);
               }, 350);
             }
 

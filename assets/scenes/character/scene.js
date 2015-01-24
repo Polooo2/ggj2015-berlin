@@ -47,4 +47,8 @@
     scene.parent.show('game');
   });
 
+  scene.on('active', function() {
+    world.audio.play('character-sel');
+  });
+
 })(this);
