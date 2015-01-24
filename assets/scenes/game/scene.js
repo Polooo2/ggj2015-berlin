@@ -25,7 +25,7 @@
         snap: 'li'
       });
       myScroll.goToPage(0, 5, 0);
-      startCharacterMoving('hero1', 'right', false, function() {
+      startCharacterMoving(world.character.name.toLowerCase(), 'right', false, function() {
         world.audio.stop('elevator-running');
         world.audio.play('elevator-ding');
         startCharacterMoving('npc' + level, 'left', true, function() {

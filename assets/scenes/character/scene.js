@@ -5,7 +5,6 @@
 
   var characters = ['Meryl', 'Armoise', 'Bark'];
 
-  // TODO: Add actual character names here
   scene.expose({
     character: characters
   });

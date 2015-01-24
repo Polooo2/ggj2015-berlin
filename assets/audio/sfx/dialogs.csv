@@ -27,14 +27,14 @@ AP33F,"That's very nice of you to say. Well, gotta go now.",,
 ,,,
 AD-1,"Enchanté monsieur, je m'appelle <i>Armoise</i>",,
 AD0,"H-Hello, I'm Demolitos... but my friends call me Demmy!",,
-AD1,Why are you carrìng those mancìng and eavì <i>axes</i> in an élevateur mon chéri? ,,
+AD1,Why are you carrìng those menacìng and 'eavy <i>axes</i> in an élevateur mon chéri? ,,
 AD2,"Demmì, what a cute name. Can I touch your <i>axes</i> mon chéri?",,
-AD3,"Those are verì wide shoulders mon chérì. <i>Armoise</i>, he likes wide shoulders.",,
+AD3,"Those are verì... <i>wide</i> shoulders mon chérì. <i>Armoise</i>, he likes <i>wide</i> shoulders.",,
 AD10,I... I'm a Warrior.,,confident
 AD20,NO! I-I'm sorry... they are a present from my e-eighth birthday... Grandma made them!,,confident
 AD3S,I... eheh... thank you!,,blush
 AD11,"Oh, I wònder what terrible <i>catastrophe</i> may have pushed you to becòme one.",,
-AD12,"Oh, than we should <i>tussle</i> right now! Come here mon strong warrior!",,
+AD12,"Oh, then we should <i>tussle</i> right now! Come here mon strong warrior!",,
 AD13,"You look verì strong indeed! <i>Armoise</i>, he likes strong.",,
 AD110,C-catastrophe? No! I just want to be the stro-strongest warrior!,,blush
 AD12S,Ah! Oh! Wuatà!,,confident
@@ -58,14 +58,14 @@ DP1,Bark!,,
 DP2,Woof!,,
 DP3,Anf anf,,
 DP1F,"Whatever, goodbye.",,
-DP20,What did you say? You think you're better than me?,,repulse
+DP20,"You want to put what, where?!",,repulse
 DP3S,"Ooh, that's a-d-o-r-a-b-l-e!",,aroused
 DP21,Bark!,,
 DP22,Woof!,,
 DP23,Anf anf,,
-DP21S,Oh... you ment/ oh. I'm sorry Bark! What can I do to apologise?,,aroused
-DP22F,Who gives you the right to tell me that? How can you... go NACK yourself! *goes away*,,repulse
-DP23S,You! You... you're right. How couldn't I see that before? I should've never told her... Thank you! Thank you oh so very much!,,
+DP21S,Between elbow and... that's outrageous! I'm in!,,aroused
+DP22F,Inside the ear? At the same TIME?!,,repulse
+DP23S,Just do it then!,,
 ,,,
 DD-1,Bark Bark,,
 DD0,"Ooh, what a nice doggy!",,excited
@@ -73,20 +73,20 @@ DD1,Bark!,,
 DD2,Woof!,,
 DD3,Anf anf,,
 DD1S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,excited
-DD20,Grandma made them! They are the best axes in the whole world!,,excited
-DD30,"I'm not gonna fight you Bark, I simply won't.",,excited
+DD20,W-what are you talking about!?! Protect me Grandma!,,excited
+DD3S,You defeated Modorglogong? All by yourself?!,,excited
 DD21,Bark!,,
 DD22,Woof!,,
 DD23,Anf anf,,
 DD21F,I... that is... I would never...,,blush
 DD22S,Ahahahah! His shoes! ahahahah!,,excited
 DD23S,"You want a snack? Come here Bark! Aaaww doggy, doggy take some! Gucci gucci guuu!",,
-DD31,Bark!,,
-DD32,Woof!,,
-DD33,Anf anf,,
-DD31S,I... uh... thank you!,,blush
-DD32S,eheh... yes I did,,excited
-DD33F,It's because I'm a warrior!,,excited
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
 ,,,
 AT-1,"Sacré bleu, a walking <i>Table</i>!",,
 AT0,... ,,
@@ -102,9 +102,9 @@ DT0,...,,
 DT1,Bark!,,
 DT2,Woof! Woof!,,
 DT3,Anf anf anf anf anf anf,,
-DT1S,"crick, crick, crick, crick, crick...",,
-DT2S,"crick, crick, crick, crick, crick...",,
-DT3S,"crick, crick, crick, crick, crick...",,
+DT1S,"creeck, creeck, creeck, creeck, creeck...",,
+DT2S,"creeck, creeck, creeck, creeck, creeck...",,
+DT3S,"creeck, creeck, creeck, creeck, creeck...",,
 ,,,
 MD-1,Don't know. How 'bout making out?,,
 MD0,Uh! ... what? I... My name is Demolitos.,,blush
@@ -115,6 +115,13 @@ MD1S,ihih... not there... ehehehe.... stop stop! ahahahahahahhahah!,,confident
 MD20,I... would... I mean... what?!,,blush
 MD30,Ah! oh... thank you!,,blush
 MD21,You would? Than what are we waiting for! *assault*,,
-MD22,"Make out, as to nack, skrew, play, shak, vang, smeep with...",,
-MD23,,,
+MD22,"Make out, as to nack. Skrew. Play. Shak. <i>Vang</i>, you know what I mean... even smeep with.",,
+MD23,"So, you're the shy one. I can appreciate it. *smirk*",,
 MD21S,Ah... what are you... Oh! Not there... ohohohoh...,,blush
+MD22F,S-smeep... with?!?! Protect me Grandma! *Demolitos passes out*,,blush
+MD23S,Eheh... ,,blush
+MD31,"Let's play arm wrestiling, if I win we make out!",,
+MD32,I bet you'll never be able to lift me!,,
+MD33,,,
+MD31S,I never lost at arm wrestling!,,confident
+MD320,,,
