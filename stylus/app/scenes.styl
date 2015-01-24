@@ -26,58 +26,119 @@
     top: 20px;
     background-repeat: no-repeat;
 
-    &[data-name=npc0] {
-      background-image: url(asset('phostnack.png'));
+    &[data-name=phostnack] {
+      background-image: url(asset('conversation/portrait_npc_phostnack.png'));
     }
   }
 
-  .conversation-area {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    .text {
-      margin-top: 50px;
-
-      &-npc, &-character {
-        padding: 20px;
-        background-color: #f3c7c7;
-        border-radius: 20px;
-        border: 10px solid #740342;
-        padding: 40px;
-        position: absolute;
-        width: 600px;
-        height: 160px;
-        box-shadow: 2px 2px 6px #444;
-      }
-
-      &-npc {
-        float: left;
-        clear: right;
-        text-align: left;
-        right: 40px;
-        top: 50px;
-        width: 490px;
-      }
-      &-character {
-        text-align: right;
-        bottom: 10px;
-        width: 80%;
-        left: 5%;
-      }
-    }
-    .answers {
+  .text {
+    &-npc, &-character {
       position: absolute;
-      right: 40px;
-      bottom: 350px;
+      text-align: center;
+      background-repeat: no-repeat;
+
+      .name {
+        position: absolute;
+        color: #f3c7c7;
+        font-size: 1.4rem;
+      }
+
+      .text {
+        position: absolute;
+        color: black;
+        font-size: 1.3rem;
+
+        width: 100%;
+        height: 100%;
+      }
     }
 
-    .answer {
-      background-color: #740342;
-      color: #f3c7c7;
-      border-radius: 6px;
-      padding: 8px;
-      margin: 5px;
+    &-npc {
+      background-image: url(asset('conversation/bubble_npc.png'));
+      width: 528px;
+      height: 373px;
+      right: 50px;
+      top: 20px;
+
+      .name {
+        right: 50px;
+        top: 12px;
+      }
+
+      .text {
+        margin-top: 75px;
+        margin-left: 15px;
+        width: 500px;
+        height: 225px;
+      }
+    }
+
+    &-character {
+      bottom: 0px;
+      background-image: url(asset('conversation/bubble_actor.png'));
+      width: 1024px;
+      height: 397px;
+
+      .name {
+        position: absolute;
+        right: 295px;
+        bottom: 258px;
+      }
+
+      .text {
+        margin-top: 200px;
+        margin-left: 50px;
+        width: 925px;
+        height: 130px;
+      }
+
+      .icon {
+        position: absolute;
+        width: 174px;
+        height: 174px;
+        right: 105px;
+        top: 7px;
+
+        &[data-name=armoise] {
+          background-image: url(asset('conversation/icon_armoise.png'));
+        }
+      }
+    }
+  }
+  .answers {
+    position: absolute;
+    bottom: 80px;
+  }
+
+  .answer {
+    background-color: #b52d74;
+    border: 8px solid #740342;
+    color: #f3c7c7;
+    border-radius: 8px;
+    display: block;
+    position: absolute;
+    text-align: center;
+
+    padding-top: 12px;
+    font-size: 1.2rem;
+
+    width: 208px;
+    height: 48px;
+
+    &:hover {
+      background-color: #B30025;
+    }
+
+    &:nth-child(1) {
+      left: ((1024px * 0.25) - (208px / 2));
+    }
+
+    &:nth-child(2) {
+      left: ((1024px - 208px) / 2);
+    }
+
+    &:nth-child(3) {
+      left: ((1024px * 0.75) - (208px / 2));
     }
   }
 }
