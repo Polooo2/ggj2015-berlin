@@ -10,6 +10,9 @@ define(['require'], function(require) {'use strict';
   var i18n = require('mygame/i18n');
   var world = require('mygame/world');
   var PrefabManager = require('lyria/prefab/manager');
+  var Fastclick = require('fastclick');
+
+  Fastclick.attach(document.body);
 
   // Create a new game object
   var myGame = new Game();
