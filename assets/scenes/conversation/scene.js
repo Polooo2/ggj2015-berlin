@@ -151,7 +151,7 @@
         $('#game .hearts').attr('data-hearts', world.character.hearts);
         world.audio.play('heart')
       }
-
+      $('[data-name*="text-character"] > .text', $conversationArea).append('<span><br><br><i>Tap to continue ...</i></span>')
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     } else {
