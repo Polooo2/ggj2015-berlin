@@ -132,7 +132,7 @@
           // in case we reached the last answer
           scene.parent.show('game', {
             afterCon: true,
-            success: true
+            success: success
           });
 
         }
