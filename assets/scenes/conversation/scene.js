@@ -155,7 +155,7 @@
         world.character.hearts += 1;
         success = true;
       }
-      $('[data-name*="text-character"] > .text', $conversationArea).append('<span><br><br><i>Tap to continue ...</i></span>')
+      $('[data-name*="text-character"] > .text', $conversationArea).append('<span><br><i>Tap to continue ...</i></span>')
       final = true;
       $('[data-name*="answers"]', $conversationArea).addClass('hidden');
     } else {
