@@ -24,7 +24,7 @@
         disableTouch: true,
         snap: 'li'
       });
-      myScroll.goToPage(0, 5, 0);
+      myScroll.goToPage(0, 3, 0);
       startCharacterMoving(world.character.name.toLowerCase(), 'right', false, function() {
         world.audio.stop('elevator-running');
         world.audio.play('elevator-ding');
@@ -64,8 +64,14 @@
         startCharacterMoving('npc' + level, 'out', true, function() {
           level++;
           if (level === 3) {
-            // outro
-            scene.parent.show('outro');
+
+            floorUp(function() {
+              myScroll.goToPage(0, 7, 0);
+              floorUp(function() {
+                // outro
+                scene.parent.show('outro');
+              });
+            });
           } else {
             // move new npc in
             startCharacterMoving('npc' + level, 'left', true, function() {
