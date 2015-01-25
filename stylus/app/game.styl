@@ -90,12 +90,47 @@ $seperator = 650px;
 
   .elevator-status {
     position: absolute;
+    left: 695px;
+    top: 20px;
+
+    transform-origin: 10px 80px
+    transition: transform 1000ms
 
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 10px 50px 10px;
+    border-width: 0 10px 90px 10px;
     border-color: transparent transparent #000000 transparent;
+
+    &.p0 {
+      left: 675px
+      transform: rotate(-70deg)
+    }
+
+    &.p0-2 {
+      transform: rotate(-50deg)
+    }
+
+    &.p1 {
+      transform: rotate(-30deg)
+    }
+
+    &.p1-2 {
+      transform: rotate(0deg)
+    }
+
+    &.p2 {
+      transform: rotate(30deg)
+    }
+
+    &.p2-2 {
+      transform: rotate(50deg)
+    }
+
+    &.p3 {
+      left: 715px;
+      transform: rotate(70deg)
+    }
   }
 
   .bubble {
@@ -120,10 +155,6 @@ $seperator = 650px;
     left: -300px;
     transition: transform 3000ms;
     background-size: contain;
-
-    &.mirror {
-      transform: rotateY(180deg)
-    }
 
     &.armoise {
       background-image: url(asset('armoise.png'));
@@ -167,6 +198,10 @@ $seperator = 650px;
 
     &.left-side {
       transform: translateX(730px)
+
+      &.mirror {
+        transform: translateX(730px) rotateY(180deg)
+      }
     }
 
     &.out-side {

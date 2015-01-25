@@ -12,6 +12,11 @@
     '2': 'What the nack? Are we stuck?... What do we do now?'
   };
 
+  var setElevatorStatus = function(pos) {
+    var $elevatorStatus = $('.elevator-status', scene.$element);
+    $elevatorStatus.removeClass('p0 p0-2 p1 p1-2 p2 p2-2 p3').addClass('p' + pos);
+  };
+
   scene.on('active', function(afterConversation) {
     if (!myScroll) {
       world.audio.stop('character-sel');
@@ -52,8 +57,12 @@
         });
       });
     }
+
+
     // if returning from a conversation
     if (afterConversation) {
+      setElevatorStatus(level);
+
       myScroll.refresh();
       world.audio.play('elevator-start');
       // move up one floor
@@ -63,8 +72,8 @@
         // move old npc out
         startCharacterMoving('npc' + level, 'out', true, function() {
           level++;
-          if (level === 3) {
 
+          if (level === 3) {
             floorUp(function() {
               myScroll.goToPage(0, 7, 0);
               floorUp(function() {
@@ -75,6 +84,8 @@
           } else {
             // move new npc in
             startCharacterMoving('npc' + level, 'left', true, function() {
+              setElevatorStatus(level + '-2');
+
               world.audio.stop('elevator-running');
               world.audio.play('elevator-stop');
 
@@ -102,6 +113,9 @@
   });
 
   function floorUp(callback) {
+    var $elevatorStatus = $('.elevator-status', scene.$element);
+
+
     var cbFn = function() {
       myScroll.off('scrollEnd', cbFn);
       if (callback) {
@@ -133,12 +147,12 @@
     var $character = $('.character.' + name, scene.$element);
     $character.removeClass('hidden');
 
-    setTimeout(function() {
+    var move = function() {
       $character.addClass(side + '-side');
 
-      // This should be rather onTransitionEnd, but I'm not sure about its iOS support
       $character.off('transitionend').on('transitionend', function() {
         if (side === 'out') {
+          $character.removeClass('mirror');
           if (callback) {
             callback();
           }
@@ -156,6 +170,19 @@
           });
         }
       });
+    };
+
+    setTimeout(function() {
+      // Mirroring not working right now :(
+      /*if (side === 'out') {
+        $character.addClass('mirror');
+
+        $character.off('transitionend').on('transitionend', function() {
+          move();
+        });
+      } else {*/
+        move();
+      //}
     }, 200);
   }
 
