@@ -47,12 +47,13 @@ module.exports = (grunt) ->
           // if no cells could be found, that means, that the string isnt escaped
           if (!cells[1]) {
               cells = line.split(',');
+              cells[2] = cells[3];
           } else {
               cells = [cells[0]].concat(cells[1].split('",,'));
           }
           var code = cells[0].substr(2);
           if (code === '') {
-            return;
+              return;
           }
           // remove ending double quotes
           var text = cells[1];
@@ -64,6 +65,13 @@ module.exports = (grunt) ->
                   'Meryl': {},
                   'Armoise': {}
               };
+          }
+
+          if (emotion) {
+              text = {
+                  text: text,
+                  emotion: emotion
+              }
           }
           switch (cells[0][0]) {
               case 'D':

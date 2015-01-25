@@ -13,8 +13,10 @@
     btn1: 'Propose',
     btn2: 'Compliment'
   };
+  var $npcPortrait;
 
   var resetCharText = function() {
+    $npcPortrait.removeClass('aroused repulsed confident');
     $('[data-name*="text-character"] > .text', scene.$elements).remove();
     $('[data-name*="text-character"]', scene.$elements).append('<div class="text"></div>');
   };
@@ -64,7 +66,10 @@
 
     // set npc data
     $('[data-name*="text-npc"] > .name', scene.$elements).text(npcName);
-    $('.portrait', scene.$elements).attr('data-name', npcName.toLowerCase());
+    if (!$npcPortrait) {
+      $npcPortrait = $('.portrait', scene.$elements);
+    }
+    $npcPortrait.attr('data-name', npcName.toLowerCase());
 
     if (!$conversationArea) {
       $conversationArea = $('[data-name*="conversation"]', scene.$element)
@@ -151,6 +156,11 @@
       } else {
         setButtons('');
       }
+    }
+    // check for emotions
+    if (typeof text !== 'string') {
+      $npcPortrait.addClass(text.emotion);
+      text = text.text;
     }
     $('[data-name*="text-npc"] > .text', $conversationArea).typed({strings: [text || '  ']});
   }

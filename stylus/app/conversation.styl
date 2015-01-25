@@ -16,13 +16,25 @@
     background-repeat: no-repeat;
 
     &[data-name=demolitos] {
-      background-image: url(asset('conversation/portrait_npc_phostnack.png'));
+      background-image: url(asset('conversation/portrait_npc_demolitos.png'));
+      &.aroused {
+        background-image: url(asset('conversation/portrait_npc_demolitos_aroused.png'));
+      }
+      &.confident {
+        background-image: url(asset('conversation/portrait_npc_demolitos_confident.png'));
+      }
     }
     &[data-name=table] {
       background-image: url(asset('conversation/portrait_npc_table.png'));
     }
     &[data-name=phostnack] {
       background-image: url(asset('conversation/portrait_npc_phostnack.png'));
+      &.aroused {
+        background-image: url(asset('conversation/portrait_npc_phostnack_aroused.png'));
+      }
+      &.repulsed {
+        background-image: url(asset('conversation/portrait_npc_phostnack_repulsed.png'));
+      }
     }
   }
 
