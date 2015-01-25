@@ -79,16 +79,17 @@
     final = false;
 
     resetCharText();
-
-    $('[data-name*="text-character"] > .text', $conversationArea).typed({
-      strings: [dialogData['-1'] || '  '],
-      callback: function() {
-        $('[data-name~=text-npc]').fadeIn(250, function() {
-          $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
-          setText();
-        });
-      }
-    });
+    (function(path){
+      $('[data-name*="text-character"] > .text', $conversationArea).typed({
+        strings: [dialogData['-1'] || '  '],
+        callback: function() {
+          $('[data-name~=text-npc]').fadeIn(250, function() {
+            $('[data-name*="answers"]', $conversationArea).removeClass('hidden');
+            setText(path);
+          });
+        }
+      });
+    })(path);
   });
 
   /**
@@ -106,14 +107,16 @@
           // get type
           var type = $(self).attr('data-type');
           path += type;
-          $('[data-name*="text-character"] > .text', $conversationArea).typed({
-            strings: [dialogData[path] || '  '],
-            callback: function() {
-              $('[data-name~=text-npc]').fadeIn(250, function() {
-                setText();
-              });
-            }
-          });
+          (function(path){
+            $('[data-name*="text-character"] > .text', $conversationArea).typed({
+              strings: [dialogData[path] || '  '],
+              callback: function() {
+                $('[data-name~=text-npc]').fadeIn(250, function() {
+                  setText(path);
+                });
+              }
+            });
+          })(path);
         });
 
         return false;
@@ -135,7 +138,7 @@
   /**
    *
    */
-  function setText() {
+  function setText(path) {
     resetNPCText();
 
     var text = dialogData[path + '0'];
@@ -159,7 +162,7 @@
       }
     }
     // check for emotions
-    if (typeof text !== 'string') {
+    if (text && typeof text !== 'string') {
       $npcPortrait.addClass(text.emotion);
       text = text.text;
     }
