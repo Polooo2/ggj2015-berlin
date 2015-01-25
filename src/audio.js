@@ -32,6 +32,11 @@ define(['require'], function(require) {
         paths: ['assets/audio/Winning Theme.mp3'],
         volume: 0.8
       });
+      audio.add({
+        id: 'intro',
+        paths: ['assets/audio/intro.mp3'],
+        volume: 0.8
+      });
 
       audio.add({
         id: 'elevator-running',

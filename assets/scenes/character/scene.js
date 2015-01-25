@@ -44,6 +44,7 @@
   });
 
   scene.on('active', function() {
+    world.audio.stop('intro');
     world.audio.play('character-sel', -1);
   });
 
