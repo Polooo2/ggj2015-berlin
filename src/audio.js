@@ -54,6 +54,11 @@ define(['require'], function(require) {
         volume: 0.8
       });
       audio.add({
+        id: 'heart',
+        paths: ['assets/audio/sfx/heart-conquer.mp3'],
+        volume: 0.8
+      });
+      audio.add({
         id: 'bark',
         paths: ['assets/audio/char/bark.mp3'],
         volume: 0.8
