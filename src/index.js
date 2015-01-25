@@ -36,8 +36,20 @@ define(['require'], function(require) {'use strict';
     .addScene('credits')
     .addScene('game');
 
+  $('body').append('<div class="loading"><div class="text">Loading, please wait...</div><div class="percentage">0 %</div></div>')
+
+
+  myGame.preloader.on('progress', function(percent) {
+    if (percent === 100) {
+      percent = 1;
+    }
+
+    $('.loading > .percentage').html(~~(percent * 100) + ' %');
+  });
+
   // If preloader is complete, everything in this function happens
   myGame.preloader.on('complete', function() {
+    $('.loading').remove();
     myGame.showScene('intro');
   });
 
