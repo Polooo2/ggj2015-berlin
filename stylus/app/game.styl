@@ -121,6 +121,10 @@ $seperator = 650px;
     transition: transform 3000ms;
     background-size: contain;
 
+    &.mirror {
+      transform: rotateY(180deg)
+    }
+
     &.armoise {
       background-image: url(asset('armoise.png'));
       width: 287px;
@@ -167,6 +171,10 @@ $seperator = 650px;
 
     &.out-side {
       transform: translateX(-730px)
+
+      &.mirror {
+        transform: translateX(-730px) rotateY(180deg)
+      }
     }
   }
 }
