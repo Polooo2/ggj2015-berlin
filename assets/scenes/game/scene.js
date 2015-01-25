@@ -14,7 +14,7 @@
 
   var setElevatorStatus = function(pos) {
     var $elevatorStatus = $('.elevator-status', scene.$element);
-    $elevatorStatus.removeClass('p0 p0-2 p1 p1-2 p2 p2-2 p3').addClass('p' + pos);
+    $elevatorStatus.removeClass('p0 p1 p2 p3 p4 p5 p6').addClass('p' + pos);
   };
 
   scene.on('active', function(afterConversation) {
@@ -61,8 +61,6 @@
 
     // if returning from a conversation
     if (afterConversation) {
-      setElevatorStatus(level);
-
       myScroll.refresh();
       world.audio.play('elevator-start');
       // move up one floor
@@ -84,8 +82,6 @@
           } else {
             // move new npc in
             startCharacterMoving('npc' + level, 'left', true, function() {
-              setElevatorStatus(level + '-2');
-
               world.audio.stop('elevator-running');
               world.audio.play('elevator-stop');
 
@@ -113,8 +109,7 @@
   });
 
   function floorUp(callback) {
-    var $elevatorStatus = $('.elevator-status', scene.$element);
-
+    setElevatorStatus(floor);
 
     var cbFn = function() {
       myScroll.off('scrollEnd', cbFn);
