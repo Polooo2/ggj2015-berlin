@@ -154,7 +154,7 @@ MP22,Can you take the form of a magic wand? I got some neat magic tricks to show
 MP23,Sweet! Show me something!,,
 MP210,"Ahah, why not? That can be fun... ""What am I?""",,
 MP22S,"Daah, I can take any shape, see? Ehy! What are you? Ooh, not so fast! Wait! No, keep it up, keep it up!",,aroused
-MP23S,I can do THIS! ... aand... THIS! ... aand ... THAT! ... aand ...,,aroused
+MP23S,I can do THIS! ... Aand... THIS! ... Aand ... THAT! ... Aand ...,,aroused
 MP210B,Missile;Stick;Flute,,
 MP211,You're a missile!,,
 MP212,You're a stick!,,
@@ -166,16 +166,16 @@ MP310B,Play;Suggest;Stare,,
 MP31,"Phostnack! You're all pink, are you feeling ok? Let me check you out, I'm a professional. *smirk*",,
 MP32,"Phostnack, how about a no pants dance? ",,
 MP33,...,,
-MP31S,"Ehy! What are you? Ooh, not so fast! Wait! No, keep it up, keep it up!",,aroused
+MP31S,"Hey! What are you...? Ooh, not so fast! Wait! Oh, keep it up, keep it up!",,aroused
 MP32F,"""No pants dance""? Let me be.",,repulsed
 MP33S,"These eyes, I can't resist them.",,aroused
 ,,,
 MTB,Play;Suggest;Approve,,
 MT-1,"I'm sorry but I didn't steal her from you, that sofa already wanted to leave you.",,
 MT0,...,,
-MT1,"Seventyfive, than she couldn't take it anymore. You up for some table tennis?",,
+MT1,"Seventyfive, then she couldn't take it anymore. You up for some table tennis?",,
 MT2,"You look so rough, I can sand you if you want...",,
-MT3,"True, but she also told me you're a very steardy lover. I wonder how it'd feel. *smirk*",,
+MT3,"True, but she also told me you're a very sturdy lover. I wonder how it'd feel. *smirk*",,
 MT1S,...,,
 MT2S,...,,
 MT3S,...,,
