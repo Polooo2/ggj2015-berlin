@@ -34,6 +34,7 @@
         world.audio.stop('elevator-running');
         world.audio.play('elevator-ding');
         startCharacterMoving('npc' + level, 'left', true, function() {
+          world.audio.stop('elevator-start');
           world.audio.stop('elevator-running');
           world.audio.play('elevator-stop');
           // Add a few millis in between
@@ -65,6 +66,7 @@
       world.audio.play('elevator-start');
       // move up one floor
       floorUp(function() {
+        world.audio.stop('elevator-start');
         world.audio.stop('elevator-running');
         world.audio.play('elevator-ding');
         // move old npc out
