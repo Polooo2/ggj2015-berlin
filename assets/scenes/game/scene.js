@@ -17,7 +17,8 @@
     $elevatorStatus.removeClass('p0 p1 p2 p3 p4 p5 p6').addClass('p' + pos);
   };
 
-  scene.on('active', function(afterConversation) {
+  scene.on('active', function(params) {
+    params = params || {};
     if (!myScroll) {
       world.audio.stop('character-sel');
       world.audio.play('elevator', -1);
@@ -45,23 +46,38 @@
           $('.bubble', scene.$element).append('<div class="text"></div>');
 
           $('.bubble', scene.$element).fadeIn(100, function() {
-            $('.bubble > .text', scene.$element).typed({strings: [npcStuck[level]], callback: function() {
-              setTimeout(function() {
-                $('.bubble', scene.$element).fadeOut(100, function() {
-                  scene.$element.removeClass('shake animated');
-                  scene.parent.show('conversation', 'npc' + level);
-                });
-              }, 2250);
-            }});
+            $('.bubble > .text', scene.$element).typed({
+              strings: [npcStuck[level]], callback: function() {
+                setTimeout(function() {
+                  $('.bubble', scene.$element).fadeOut(100, function() {
+                    scene.$element.removeClass('shake animated');
+                    scene.parent.show('conversation', 'npc' + level);
+                  });
+                }, 2250);
+              }
+            });
 
           });
         });
       });
     }
 
+    if (params.success) {
+      $('.character.'+world.character.name.toLowerCase()+',.character.npc' + level, scene.$element).fadeOut(1000);
+      $('.heart', scene.$element).fadeIn(1000, 'swing', function() {
+        $('.character.'+world.character.name.toLowerCase()+',.character.npc' + level, scene.$element).fadeIn(1500);
+
+        $('#game .hearts').attr('data-hearts', world.character.hearts);
+        world.audio.play('heart');
+        setTimeout(function() {
+
+          $('.heart', scene.$element).fadeOut(2000, 'swing');
+        }, 750)
+      })
+    }
 
     // if returning from a conversation
-    if (afterConversation) {
+    if (params.afterCon) {
       myScroll.refresh();
       world.audio.play('elevator-start');
       // move up one floor
@@ -93,14 +109,16 @@
               $('.bubble', scene.$element).append('<div class="text"></div>');
 
               $('.bubble', scene.$element).fadeIn(100, function() {
-                $('.bubble > .text', scene.$element).typed({strings: [npcStuck[level]], callback: function() {
-                  setTimeout(function() {
-                    $('.bubble', scene.$element).fadeOut(100, function() {
-                      scene.$element.removeClass('shake animated');
-                      scene.parent.show('conversation', 'npc' + level);
-                    });
-                  }, 2250);
-                }});
+                $('.bubble > .text', scene.$element).typed({
+                  strings: [npcStuck[level]], callback: function() {
+                    setTimeout(function() {
+                      $('.bubble', scene.$element).fadeOut(100, function() {
+                        scene.$element.removeClass('shake animated');
+                        scene.parent.show('conversation', 'npc' + level);
+                      });
+                    }, 2250);
+                  }
+                });
 
               });
             });

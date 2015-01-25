@@ -6,6 +6,7 @@
   var $conversationArea;
   // TODO
   var dialogData;
+  var success = false;
   var world = scene.parent.parent.world;
 
   var btnTexts = {
@@ -77,6 +78,7 @@
     // reset vars
     path = '';
     final = false;
+    success = false;
 
     resetCharText();
     (function(path){
@@ -128,7 +130,10 @@
           console.log(scene.parent.parent.world.character.hearts);
 
           // in case we reached the last answer
-          scene.parent.show('game', true);
+          scene.parent.show('game', {
+            afterCon: true,
+            success: true
+          });
 
         }
       }
@@ -148,8 +153,7 @@
       // add a heart if this was a successful dialog
       if (dialogData[path + 'S']) {
         world.character.hearts += 1;
-        $('#game .hearts').attr('data-hearts', world.character.hearts);
-        world.audio.play('heart')
+        success = true;
       }
       $('[data-name*="text-character"] > .text', $conversationArea).append('<span><br><br><i>Tap to continue ...</i></span>')
       final = true;
