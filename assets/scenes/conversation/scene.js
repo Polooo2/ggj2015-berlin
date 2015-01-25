@@ -144,7 +144,8 @@
       text = dialogData[path + 'F'] || dialogData[path + 'S'];
       // add a heart if this was a successful dialog
       if (dialogData[path + 'S']) {
-        scene.parent.parent.world.character.hearts += 1;
+        world.character.hearts += 1;
+        $('#game .hearts').attr('data-hearts', world.character.hearts);
         world.audio.play('heart')
       }
 
