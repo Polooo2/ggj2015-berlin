@@ -152,7 +152,6 @@
 
       $character.off('transitionend').on('transitionend', function() {
         if (side === 'out') {
-          $character.removeClass('mirror');
           if (callback) {
             callback();
           }
@@ -174,15 +173,15 @@
 
     setTimeout(function() {
       // Mirroring not working right now :(
-      /*if (side === 'out') {
+      if (side === 'out') {
         $character.addClass('mirror');
 
         $character.off('transitionend').on('transitionend', function() {
           move();
         });
-      } else {*/
+      } else {
         move();
-      //}
+      }
     }, 200);
   }
 
