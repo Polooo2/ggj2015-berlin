@@ -25,7 +25,7 @@ define(['require'], function(require) {
       audio.add({
         id: 'character-sel',
         paths: ['assets/audio/Bassline_Character Select_128.mp3'],
-        volume: 0.8
+        volume: 1
       });
       audio.add({
         id: 'winning',
@@ -51,7 +51,7 @@ define(['require'], function(require) {
       audio.add({
         id: 'elevator-ding',
         paths: ['assets/audio/sfx/Elevator_Ding.mp3'],
-        volume: 1
+        volume: 0.8
       });
       audio.add({
         id: 'heart',
