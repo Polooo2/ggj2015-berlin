@@ -4,11 +4,12 @@
   scene.bindEvent('[data-behavior~=back]', function() {
     director.add('game');
     world.audio.stop('winning');
+    world.audio.stop('elevator-running');
     world.character.hearts = 0;
     scene.parent.show('intro');
   });
   scene.on('active', function() {
-    world.audio.stop('elevator-start');
+    world.audio.stop('elevator');
     world.audio.stop('elevator-running');
     world.audio.play('winning', -1);
     // check if the player has enough hearths for the win situation

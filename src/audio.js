@@ -51,7 +51,7 @@ define(['require'], function(require) {
       audio.add({
         id: 'elevator-ding',
         paths: ['assets/audio/sfx/Elevator_Ding.mp3'],
-        volume: 0.8
+        volume: 0.7
       });
       audio.add({
         id: 'heart',
