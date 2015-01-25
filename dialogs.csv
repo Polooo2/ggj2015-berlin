@@ -72,7 +72,7 @@ DP23S,"Let's do that, now!",,aroused
 ,,,
 DDB,Bark;Woof;Anf,,
 DD-1,Bark Bark,,
-DD0,Ah! It is nice to meet you Mr. President!,,aroused
+DD0,Ah! It is nice to meet you Mr. President!,,
 DD1,Bark!,,
 DD2,Woof! Woof! ,,
 DD3,Anf anf anf anf anf.,,
@@ -114,16 +114,16 @@ DT0,...,,
 DT1,Bark!,,
 DT2,Woof! Woof! ,,
 DT3,Anf anf anf anf anf.,,
-DT1S,"creek, creek, creek, creek, creek...",,
-DT2S,"creek, creek, creek, creek, creek...",,
-DT3S,"creek, creek, creek, creek, creek...",,
+DT1S,"creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek...",,
+DT2S,"creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek...",,
+DT3S,"creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek, creek...",,
 ,,,
 MDB,Play;Suggest;Approve,,
 MD-1,Don't know. How 'bout making out?,,
 MD0,Uh! ... what? I... My name is Demolitos.,,aroused
 MD1,"And I'm Meryl sweetheart, how'd you like some tickling? *giggle*",,
 MD2,"And I'm Meryl sweetheart. Good, now we know each other. Time to make out?",,
-MD3,"And I'm Meryl sweetheart. So, you got some preatty nice croach-belts going for you there. ",,
+MD3,"And I'm Meryl sweetheart. So, you got some preatty nice crotchbelts going for you there. ",,
 MD1S,Ihih... not there... ehehehe.... stop stop! Ahahahahahahhahah!,,confident
 MD20,I... would... I mean... what?!,,aroused
 MD30,Thanks! I got them from an orc my Grandma killed.,,aroused
@@ -137,28 +137,45 @@ MD31,"Let's play arm wrestling. If I win, we make out!",,
 MD32,Really? Let me take a closer look!,,
 MD33,"Nice biceps, and look at those legs.",,
 MD31S,I never lost at arm wrestling.,,confident
-MD320,"Sure. Hey, what are you? Ihih... not there... ehehehe.... stop oh don't stop! Ahahahahahahhahah!",,confident
+MD320,"Sure. Hey, what are you? Ihih... not there... ehehehe.... stop! or, don't stop! ",,confident
 MD33S,I...,,aroused
-,,,
-MTB,Play;Suggest;Approve,,
-MT-1,That's original.,,
-MT0,...,,
-MT1,I'll just turn this around and...,,
-MT2,I could use couple of self-moving table legs.,,
-MT3,What a nice table! Let's work it!,,
-MT1S,,,
-MT2S,"Tock, thock... crack!",,
-MT3S,"Babong, thock, tock.",,
 ,,,
 MPB,Play;Suggest;Approve,,
 MP-1,I've got a couple ideas... *smirk*,,
-MP0,And you would be... ?,,
+MP0,"Oh, you got ideas? W-o-a, that is simply a-m-a-z-i-n-g. Honestly, who the nack are you?",,
 MP1,I'm Meryl. Truth or Dare?,,
-MP2,Can you take any shape?,,
-MP3,That's a nice hat! You got style sis!,,
-MP1F,Let me be.,,repulsed
-MP20,"Obviously I can, why do you ask?",,
-MP30,"Thanks, I appreciate those that can tell.",,aroused
-MP21,,,
-MP22,,,
-MP23,,,
+MP2,I'm Meryl. Can you take any shape?,,
+MP3,I'm Meryl. That's a nice hat! You got style sis!,,
+MP1F,"Let me be, Meryl.",,repulsed
+MP20,"Being Phostnack, I obviously can. Why do you ask?",,
+MP30,"Thanks, I appreciate those that can tell. I'm Phostnack and, by the way, you've got captivating eyes.",,aroused
+MP21,"Let's play ""What am I?"".",,
+MP22,Can you take the form of a magic wand? I got some neat magic tricks to show you. *smirk*,,
+MP23,Sweet! Show me something!,,
+MP210,"Ahah, why not? That can be fun... ""What am I?""",,
+MP22S,"Daah, I can take any shape, see? Ehy! What are you? Ooh, not so fast! Wait! No, keep it up, keep it up!",,aroused
+MP23S,I can do THIS! ... aand... THIS! ... aand ... THAT! ... aand ...,,aroused
+MP210B,Missile;Stick;Flute,,
+MP211,You're a missile!,,
+MP212,You're a stick!,,
+MP213,You're a flute!,,
+MP211S,You got me!,,aroused
+MP212S,You got me!,,aroused
+MP213S,You got me!,,aroused
+MP310B,Play;Suggest;Stare,,
+MP31,"Phostnack! You're all pink, are you feeling ok? Let me check you out, I'm a professional. *smirk*",,
+MP32,"Phostnack, how about a no pants dance? ",,
+MP33,...,,
+MP31S,"Ehy! What are you? Ooh, not so fast! Wait! No, keep it up, keep it up!",,aroused
+MP32F,"""No pants dance""? Let me be.",,repulsed
+MP33S,"These eyes, I can't resist them.",,aroused
+,,,
+MTB,Play;Suggest;Approve,,
+MT-1,"I'm sorry but I didn't steal her from you, that sofa already wanted to leave you.",,
+MT0,...,,
+MT1,"Seventyfive, than she couldn't take it anymore. You up for some table tennis?",,
+MT2,"You look so rough, I could sand you if you wanted...",,
+MT3,"True, but she also told me you're a very steardy lover. I wonder how it'd feel. *smirk*",,
+MT1S,...,,
+MT2S,...,,
+MT3S,...,,
