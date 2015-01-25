@@ -88,10 +88,19 @@ $seperator = 650px;
     z-index: 10;
   }
 
+  .elevator-status-container {
+    width: 300px;
+    height: 85px;
+    position: absolute;
+    overflow: hidden;
+    left: 550px;
+    top: 10px;
+  }
+
   .elevator-status {
     position: absolute;
-    left: 695px;
-    top: 20px;
+    left: 50%;
+    bottom: -6px;
 
     transform-origin: 10px 80px
     transition: transform 1000ms
@@ -103,38 +112,41 @@ $seperator = 650px;
     border-color: transparent transparent #000000 transparent;
 
     &.p0 {
-      left: 680px
+      bottom: -14px
+      left: 45%
       transform: rotate(-90deg)
     }
 
     &.p1 {
-      left: 680px
-      transform: rotate(-75deg)
+      left: 45%
+      transform: rotate(-85deg)
     }
 
     &.p2 {
-      transform: rotate(-70deg)
+      transform: rotate(-75deg)
     }
 
     &.p3 {
-      top: 25px;
-      transform: rotate(-35deg)
+      bottom: -22px
+      transform: rotate(-40deg)
     }
 
     &.p4 {
-      transform: rotate(-5deg)
+      bottom: -24px
+      left: 45%
+      transform: rotate(2.5deg)
     }
 
     &.p5 {
-      transform: rotate(30deg)
+      bottom: -22px
+      transform: rotate(20deg)
     }
 
     &.p6 {
-      transform: rotate(50deg)
+      transform: rotate(55deg)
     }
 
     &.p7 {
-      left: 715px;
       transform: rotate(70deg)
     }
   }
