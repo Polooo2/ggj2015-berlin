@@ -15,6 +15,7 @@
     (function(i) {
       scene.bindEvent('[data-behavior~=select-character' + i + ']', function(e) {
         selectedCharacter = characters[i];
+        world.audio.play(selectedCharacter.toLowerCase());
         $('.continue', scene.$element).removeClass('disabled');
 
         $('.background', scene.$element).addClass('overlay');

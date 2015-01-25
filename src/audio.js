@@ -54,9 +54,19 @@ define(['require'], function(require) {
         volume: 0.8
       });
       audio.add({
-        id: 'heart',
-        paths: ['assets/audio/sfx/Heart Conquer.mp3'],
-        volume: 1
+        id: 'bark',
+        paths: ['assets/audio/char/bark.mp3'],
+        volume: 0.8
+      });
+      audio.add({
+        id: 'armoise',
+        paths: ['assets/audio/char/armoise.mp3'],
+        volume: 0.8
+      });
+      audio.add({
+        id: 'meryl',
+        paths: ['assets/audio/char/meryl.mp3'],
+        volume: 0.8
       });
 
       audio.on('ended', function(id) {
