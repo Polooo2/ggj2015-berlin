@@ -14,7 +14,7 @@
     world.audio.play('winning', -1);
     // check if the player has enough hearths for the win situation
     if (world.character.hearts === 3) {
-      $('.background', event.$element).addClass('success');
+      $('.background', scene.$element).addClass('success');
     }
   });
 })(this);
