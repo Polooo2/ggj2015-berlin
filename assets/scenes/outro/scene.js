@@ -9,6 +9,10 @@
     scene.parent.show('intro');
   });
   scene.on('active', function() {
+    if ($('.background').hasClass('success')) {
+      $('.background').removeClass('success');
+    }
+
     world.audio.stop('elevator');
     world.audio.stop('elevator-running');
     world.audio.play('winning', -1);
